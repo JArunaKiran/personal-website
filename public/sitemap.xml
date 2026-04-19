@@ -2,23 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://jarunakiran.in/</loc>
+    <lastmod>2026-04-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jarunakiran.in/tags/philosophy/</loc>
+    <lastmod>2026-04-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jarunakiran.in/tags/reading-notes/</loc>
+    <lastmod>2026-04-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jarunakiran.in/blog/2026-04-19-reading-notes-the-beauty-of-everyday-things/</loc>
+    <lastmod>2026-04-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jarunakiran.in/tags/</loc>
+    <lastmod>2026-04-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://jarunakiran.in/blog/</loc>
     <lastmod>2026-04-18T19:00:09+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-04-18T19:00:09+05:30</lastmod>
+    <loc>https://jarunakiran.in/tags/mystery/</loc>
+    <lastmod>2026-03-30T19:08:02+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/book-review/</loc>
+    <loc>https://jarunakiran.in/blog/2026-03-30-reading-notes-inspector-imanishi-investigates/</loc>
+    <lastmod>2026-03-30T19:08:02+05:30</lastmod>
+  </url><url>
+    <loc>https://jarunakiran.in/tags/book-review/</loc>
     <lastmod>2025-12-12T19:08:02+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/my-first-post/</loc>
+    <loc>https://jarunakiran.in/blog/2025-12-12-book-review-the-samurai/</loc>
     <lastmod>2025-12-12T19:08:02+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://jarunakiran.in/tags/fiction/</loc>
     <lastmod>2025-12-12T19:08:02+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://jarunakiran.in/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/values/</loc>
+    <loc>https://jarunakiran.in/values/</loc>
   </url>
 </urlset>

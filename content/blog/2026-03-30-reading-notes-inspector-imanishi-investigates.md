@@ -19,22 +19,32 @@ ________________________________________________________________________________
 
 30-March-2026
 
-This is the second book of Seicho Matsumoto that I am currently reading. One month and 100 pages into the book, I find it as interesting as I did the first one - Tokyo Express. Seicho's writing style is plain and concise. I find it a bit similar to Keigo Higashino's way of writing (perhaps Keigo was inspired by Seicho). The detective work described in both the authors' books is close to how a real-life detective would go about solving mysteries. It's real, tough and involves investigation lot of dead leads. Their deduction capabilities are instinctive and raw. Their a-ha moments are sudden and most often lucky coincidences when they see something random in the generic patterns of the world. Contrast this with old school Western authors like Arthur Conan Doyle, Edgar Allan Poe or Ellery Queen, where the characters' deductive reasoning often seems mathematical and rooted in logic. 
-The story far is about a man who is found dead near a railway station. The man's face is severely beaten, rendering it unrecognisable. Imanishi, the titular character, has been assigned to investigate the case. While there is lot of evidence (such as murder weapon and witnesses) around the crime scene, Imanishi and his subordinate, Yoshimura, have run into dead-ends so far. There's another backstory running in parallel - about a group of men called Nouveau. I am interested to know if such a movement ever existed in Japan in the 1960s.
+This is the second book by Seicho Matsumoto that I’m reading. A month in and a hundred pages through, I find it just as engaging as the first - Tokyo Express.
 
-That's it for today, shall write more on this soon. 
+Seicho’s writing is plain and precise, almost understated. In many ways, it reminds me of Keigo Higashino’s style—perhaps not coincidentally. The investigative work in both their novels feels grounded in reality - slow, methodical, and often frustrating, with long stretches spent chasing dead ends. Their detectives rely less on dazzling logic and more on instinct. It's raw, intuitive, and occasionally aided by chance. Their breakthroughs arrive suddenly, sometimes almost by accident. 
+
+This stands in contrast to classic Western writers like Arthur Conan Doyle, Edgar Allan Poe, or Ellery Queen, where deduction often unfolds with the neat precision of solving a mathematical equation.
+
+Let's come to the story now. 
+
+So far, the plot revolves around a man found dead near a railway station, his face so badly beaten that he is rendered unrecognizable. Imanishi, the titular character, is assigned to investigate the case. Despite the presence of considerable evidence- murder weapon, witnesses, and other clues- the investigation has led nowhere. Imanishi and his subordinate, Yoshimura, find themselves circling dead ends.
+
+Running alongside this is another thread: a backstory involving a group of men called “Nouveau.” I’m curious to see how this connects to the central mystery, and whether such a movement ever existed in Japan in the 1960s.
+
+That’s all for today. I’ll write more as I read on. 
 
 _____________________________________________________________________________________
 
 04-April-2026
 
-I finished the book today and I must say I am absolutely loved reading it. The style of writing is just flawless and simple. The sentences are not too long, but the prose is vividly descriptive at the same time. The prose demands the reader's attention at all times. 
+I finished the book today and I must say that I absolutely loved reading it. 
 
-Unlike other detective novels where it's left to the reader to surmise the possible list of suspects, Seicho-san is different. He doesn't allow the reader to think of it themselves, nor does he fully invite the reader into what's going on in Imanishi's mind. But the reader is still deeply immersed into the story. The times when Imanishi felt hopeless about the case, I felt the same too. The times when Imanishi was struck with inspiration, I was lagging behind trying to think what could possibly lead to a light-bulb moment for him. Some conclusions that Imanishi drew early on are not fully until the last few pages into the book. At first, I was a bit exasperated due to lack of clues but it seemed like a recurring theme throughout the book. Seicho-san demands patience from the readers and doesn't let them get ahead of Imanishi. It's almost as if he wants them to be on the same pace as Imanishi and give readers a taste of what detective work looks like. It's hard, engrossing and consumes a large part of the detective's life. 
+Seicho Matsumoto’s writing is both flawless and unassuming. The sentences are never overly long, yet the prose remains vividly descriptive. It demands your attention without ever feeling heavy-handed.
+What sets Seicho apart from many other detective writers is how he positions the reader within the investigation. Unlike conventional mysteries, where readers are encouraged to assemble their own list of suspects, Seicho takes a different route. He neither invites the reader fully into the workings of Imanishi’s mind nor allows them to run ahead of the story. And yet, the immersion is complete.
 
-Overall, I quite enjoyed reading the book. I want to jump into another mystery novel but I am just going hold myself back. Other genres require exploration too.. 
+When Imanishi felt stuck, I felt that same frustration. When he experienced flashes of insight, I found myself trailing behind, trying to grasp what might have led him there. Some of his early conclusions only make sense in the final pages, and while this initially felt exasperating, it soon became clear that this was intentional. Seicho demands patience. He keeps the reader in step with Imanishi, offering a glimpse into the reality of detective work which is slow, demanding, and often consuming.
 
-
+In the end, I thoroughly enjoyed the experience. I’m tempted to dive straight into another mystery, but I think I’ll hold off for now. Other genres deserve some attention too.
 
 Until next time. 
 

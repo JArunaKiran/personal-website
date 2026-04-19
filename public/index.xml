@@ -2,34 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Home on The Big Banyan Tree</title>
-    <link>http://localhost:1313/</link>
+    <link>https://jarunakiran.in/</link>
     <description>Recent content in Home on The Big Banyan Tree</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Mar 2026 19:08:02 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jarunakiran.in/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Reading Notes - The Beauty of Everyday Things by Soetsu Yanagi</title>
+      <link>https://jarunakiran.in/blog/2026-04-19-reading-notes-the-beauty-of-everyday-things/</link>
+      <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>https://jarunakiran.in/blog/2026-04-19-reading-notes-the-beauty-of-everyday-things/</guid>
+      <description>&lt;img src=&#34;https://jarunakiran.in/images/soetsu-yanagi-beauty.jpg&#34; alt=&#34;Inspector Imanishi Investigates&#34; style=&#34;float:right;width:180px;margin:0 0 1.5rem 2rem;border-radius:0%;&#34; /&gt;
+&lt;p&gt;Start Date: 17-April-2026&lt;/p&gt;
+&lt;p&gt;End Date:&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I don&amp;rsquo;t remember who recommended this book, or why. But I do remember the quiet certainty I felt last year that this was a book I had to read. I had written to my neighborhood bookstore, only to learn they didn’t have it in stock. They said they could place an order with their distributor if I really wanted it. I did. Two days later, the manager called to say it had arrived. I left work early that day and went straight to the store, hoping to make it before closing. The manager - a kind, elderly gentleman - handed me the book and wished me a happy reading.
+The manager, a kind and elderly gentleman, gave me the book and wished me a happy reading. This was a few months ago and the book has been collecting dust since then.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Reading Notes - Inspector Imanishi Investigates by Seicho Matsumoto</title>
-      <link>http://localhost:1313/blog/2026-03-30-reading-notes-inspector-imanishi-investigates/</link>
+      <link>https://jarunakiran.in/blog/2026-03-30-reading-notes-inspector-imanishi-investigates/</link>
       <pubDate>Mon, 30 Mar 2026 19:08:02 +0530</pubDate>
-      <guid>http://localhost:1313/blog/2026-03-30-reading-notes-inspector-imanishi-investigates/</guid>
-      <description>&lt;img src=&#34;http://localhost:1313/images/seicho.png&#34; alt=&#34;Inspector Imanishi Investigates&#34; style=&#34;float:right;width:180px;margin:0 0 1.5rem 2rem;border-radius:0%;&#34; /&gt;
+      <guid>https://jarunakiran.in/blog/2026-03-30-reading-notes-inspector-imanishi-investigates/</guid>
+      <description>&lt;img src=&#34;https://jarunakiran.in/images/seicho.png&#34; alt=&#34;Inspector Imanishi Investigates&#34; style=&#34;float:right;width:180px;margin:0 0 1.5rem 2rem;border-radius:0%;&#34; /&gt;
 &lt;p&gt;&amp;lsquo;Reading Notes&amp;rsquo; is one of my initiatives to keep a tab of what I read and when I read. These are just my general musing; I am interested in recording my thoughts as I read so that I can look back and reflect on my thought patterns. It will be a raw, unedited version of my thoughts.&lt;/p&gt;
 &lt;p&gt;So here it goes. I am starting with &amp;lsquo;Inspector Imanishi Investigates&amp;rsquo; by Seicho Matsumoto.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Book Review - The Samurai by Shusaku Endo</title>
-      <link>http://localhost:1313/blog/2025-12-12-book-review-the-samurai/</link>
+      <link>https://jarunakiran.in/blog/2025-12-12-book-review-the-samurai/</link>
       <pubDate>Fri, 12 Dec 2025 19:08:02 +0530</pubDate>
-      <guid>http://localhost:1313/blog/2025-12-12-book-review-the-samurai/</guid>
-      <description>&lt;img src=&#34;http://localhost:1313/images/thesamurai.jpg&#34; alt=&#34;The Samurai&#34; style=&#34;float:right;width:180px;margin:0 0 1.5rem 2rem;border-radius:0%;&#34; /&gt;
+      <guid>https://jarunakiran.in/blog/2025-12-12-book-review-the-samurai/</guid>
+      <description>&lt;img src=&#34;https://jarunakiran.in/images/thesamurai.jpg&#34; alt=&#34;The Samurai&#34; style=&#34;float:right;width:180px;margin:0 0 1.5rem 2rem;border-radius:0%;&#34; /&gt;
 &lt;p&gt;I had never previously read anything by Shusaku Endo. All I knew about him was that one of his novels, Silence, had been adapted into an award-winning film directed by Martin Scorsese. I had watched bits and pieces of the movie, and it was compelling enough to spark my curiosity about the events that took place in Japan during the 1500–1600s. Discovering that The Samurai was set in this period, I decided to give the book a try. I went in without expectations and emerged with a new perspective on faith and what it means to us.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/about/</link>
+      <link>https://jarunakiran.in/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>https://jarunakiran.in/about/</guid>
       <description>&lt;p&gt;👋 Hi, I’m Aruna - currently working as a Product Manager in Bangalore, India. This phrase from Batman Begins probably sums me up the best - &lt;blockquote class=&#34;custom-quote&#34;&gt;
   “It’s not who I am underneath, but what I do that defines me.” 
 &lt;/blockquote&gt; Outside of work, I love to read fiction novels, listen to modern jazz and watch crime procedural dramas. Also, a proud Rafa fan. 😍&lt;/p&gt;
@@ -38,9 +50,9 @@
     </item>
     <item>
       <title>Values</title>
-      <link>http://localhost:1313/values/</link>
+      <link>https://jarunakiran.in/values/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/values/</guid>
+      <guid>https://jarunakiran.in/values/</guid>
       <description>&lt;p&gt;My Value System&lt;/p&gt;</description>
     </item>
   </channel>
