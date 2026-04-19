@@ -1,0 +1,48 @@
+baseURL = 'https://example.org/'
+locale = 'en-us'
+title = 'The Big Banyan Tree'
+theme = 'PaperMod'
+
+[taxonomies]
+  tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+  defaultTheme = "light"
+  ShowTags = true
+  ShowReadingTime = true
+  ShowPostMeta = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  description = "Reflections on life, value, growth"
+  customCSS = ["css/extended/custom.css"]
+  ignoreLogs = ['warning-goldmark-raw-html']
+  label = { text = "The Big Banyan Tree", icon = "/images/banyantree.png", iconHeight = 60 }
+
+[menu]
+
+    [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 0
+
+  [[menu.main]]
+  name = "About Me"
+  url = "/about/"
+  weight = 1
+
+  [[menu.main]]
+  name = "My Values"
+  url = "/values/"
+  weight = 2
+
+  [[menu.main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 3
