@@ -21,7 +21,7 @@ ________________________________________________________________________________
 
 This is the second book by Seicho Matsumoto that I’m reading. A month in and a hundred pages through, I find it just as engaging as the first - Tokyo Express.
 
-Seicho’s writing is plain and precise, almost understated. In many ways, it reminds me of Keigo Higashino’s style—perhaps not coincidentally. The investigative work in both their novels feels grounded in reality - slow, methodical, and often frustrating, with long stretches spent chasing dead ends. Their detectives rely less on dazzling logic and more on instinct. It's raw, intuitive, and occasionally aided by chance. Their breakthroughs arrive suddenly, sometimes almost by accident. 
+Seicho’s writing is plain and precise, almost understated. In many ways, it reminds me of Keigo Higashino’s style, perhaps not coincidentally. The investigative work in both their novels feels grounded in reality - slow, methodical, and often frustrating, with long stretches spent chasing dead ends. Their detectives rely less on dazzling logic and more on instinct. It's raw, intuitive, and occasionally aided by chance. Their breakthroughs arrive suddenly, sometimes almost by accident. 
 
 This stands in contrast to classic Western writers like Arthur Conan Doyle, Edgar Allan Poe, or Ellery Queen, where deduction often unfolds with the neat precision of solving a mathematical equation.
 

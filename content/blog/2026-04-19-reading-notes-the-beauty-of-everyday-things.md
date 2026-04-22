@@ -19,4 +19,4 @@ I finally opened it two days ago, on a flight home to Bhopal. Somewhere between 
 
 Let me sum up what I have read so far. 
 
-Yanagi begins by explaining what folk craft, or *mingei* (in Japanese) means. The craft refers to the creation of everyday objects used by ordinary people on a daily basis. 
+Yanagi-san begins by explaining what folk craft, or *mingei* (in Japanese) means. The craft refers to the creation of everyday objects used by ordinary people on a daily basis. Such objects may not be visually appealing but it serves its utility to the fullest extent.
