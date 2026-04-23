@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Note-Taking on The Big Banyan Tree</title>
+    <link>http://localhost:1313/tags/note-taking/</link>
+    <description>Recent content in Note-Taking on The Big Banyan Tree</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/note-taking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zettlekasten Note Taking Method</title>
+      <link>http://localhost:1313/notes/2026-04-22-zettlekasten-note-taking-method/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2026-04-22-zettlekasten-note-taking-method/</guid>
+      <description>&lt;p&gt;TIL about the &lt;em&gt;Zettelkasten&lt;/em&gt; note-taking method. It&amp;rsquo;s an effective knowledge management system developed by the German sociologist, Niklas Luhmann. Zettelkasten means box of cards in German. It&amp;rsquo;s a way to build a web of knowledge, find meaningful connections among topics and use these links to develop ideas and arguments. Another way to think about this is how do you connect something you learn with something you already know.&lt;/p&gt;
+&lt;p&gt;The building block of this system is something called &amp;lsquo;Literature Notes&amp;rsquo;. These are the notes that one writes while consuming content. The rules of writing a literature note are - one atomic idea per note, has to be very short (3-5 sentences), has to be expressed in one&amp;rsquo;s own words (not copied), and must have a reference to track where the note came from. From literature notes, a permanent note is made which could be thought of as a thematic collection of literature notes.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

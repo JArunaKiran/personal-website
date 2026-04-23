@@ -3,7 +3,11 @@ title = 'About Me'
 image= "/images/profile.jpeg"
 +++
 
-👋 Hi, I’m Aruna - currently working as a Product Manager in Bangalore, India. This phrase from Batman Begins probably sums me up the best - {{<quote>}}“It’s not who I am underneath, but what I do that defines me.” {{</quote>}} Outside of work, I love to read fiction novels, listen to modern jazz and watch crime procedural dramas. Also, a proud Rafa fan. 😍
+👋 Hi, I’m Aruna - currently working as a Senior Product Manager at CoinDCX in Bangalore, India. I began my PM journey in Trust & Safety, and five years on, I continue to build my career in the field. Prior to entering the crypto space, I worked in fintech at PhonePe and in the energy sector at Enphase Energy.
+Outside of work, I love to read fiction novels, listen to modern jazz and watch crime procedural dramas. Also, a proud Rafa fan. 😍
+
+This phrase from the movie *Batman Begins* probably sums me up the best - 
+{{<quote>}}  It’s not who I am underneath, but what I do that defines me. {{</quote>}} 
 
 ## About the Blog 
 

@@ -2,41 +2,53 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jarunakiran.in/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-04-23T12:08:38+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/notes/my-new-note/</loc>
+    <lastmod>2026-04-23T12:08:38+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/notes/</loc>
+    <lastmod>2026-04-23T12:08:38+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/note-taking/</loc>
+    <lastmod>2026-04-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2026-04-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/notes/2026-04-22-zettlekasten-note-taking-method/</loc>
+    <lastmod>2026-04-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/philosophy/</loc>
     <lastmod>2026-04-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jarunakiran.in/tags/philosophy/</loc>
+    <loc>http://localhost:1313/tags/reading-notes/</loc>
     <lastmod>2026-04-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jarunakiran.in/tags/reading-notes/</loc>
+    <loc>http://localhost:1313/blog/2026-04-19-reading-notes-the-beauty-of-everyday-things/</loc>
     <lastmod>2026-04-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://jarunakiran.in/blog/2026-04-19-reading-notes-the-beauty-of-everyday-things/</loc>
-    <lastmod>2026-04-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jarunakiran.in/tags/</loc>
-    <lastmod>2026-04-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://jarunakiran.in/blog/</loc>
+    <loc>http://localhost:1313/blog/</loc>
     <lastmod>2026-04-18T19:00:09+05:30</lastmod>
   </url><url>
-    <loc>https://jarunakiran.in/tags/mystery/</loc>
+    <loc>http://localhost:1313/tags/mystery/</loc>
     <lastmod>2026-03-30T19:08:02+05:30</lastmod>
   </url><url>
-    <loc>https://jarunakiran.in/blog/2026-03-30-reading-notes-inspector-imanishi-investigates/</loc>
+    <loc>http://localhost:1313/blog/2026-03-30-reading-notes-inspector-imanishi-investigates/</loc>
     <lastmod>2026-03-30T19:08:02+05:30</lastmod>
   </url><url>
-    <loc>https://jarunakiran.in/tags/book-review/</loc>
+    <loc>http://localhost:1313/tags/book-review/</loc>
     <lastmod>2025-12-12T19:08:02+05:30</lastmod>
   </url><url>
-    <loc>https://jarunakiran.in/blog/2025-12-12-book-review-the-samurai/</loc>
+    <loc>http://localhost:1313/blog/2025-12-12-book-review-the-samurai/</loc>
     <lastmod>2025-12-12T19:08:02+05:30</lastmod>
   </url><url>
-    <loc>https://jarunakiran.in/tags/fiction/</loc>
+    <loc>http://localhost:1313/tags/fiction/</loc>
     <lastmod>2025-12-12T19:08:02+05:30</lastmod>
   </url><url>
-    <loc>https://jarunakiran.in/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>https://jarunakiran.in/values/</loc>
+    <loc>http://localhost:1313/values/</loc>
   </url>
 </urlset>

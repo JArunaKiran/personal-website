@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Book Review on The Big Banyan Tree</title>
-    <link>https://jarunakiran.in/tags/book-review/</link>
+    <link>http://localhost:1313/tags/book-review/</link>
     <description>Recent content in Book Review on The Big Banyan Tree</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 12 Dec 2025 19:08:02 +0530</lastBuildDate>
-    <atom:link href="https://jarunakiran.in/tags/book-review/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/book-review/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Book Review - The Samurai by Shusaku Endo</title>
-      <link>https://jarunakiran.in/blog/2025-12-12-book-review-the-samurai/</link>
+      <link>http://localhost:1313/blog/2025-12-12-book-review-the-samurai/</link>
       <pubDate>Fri, 12 Dec 2025 19:08:02 +0530</pubDate>
-      <guid>https://jarunakiran.in/blog/2025-12-12-book-review-the-samurai/</guid>
-      <description>&lt;img src=&#34;https://jarunakiran.in/images/thesamurai.jpg&#34; alt=&#34;The Samurai&#34; style=&#34;float:right;width:180px;margin:0 0 1.5rem 2rem;border-radius:0%;&#34; /&gt;
+      <guid>http://localhost:1313/blog/2025-12-12-book-review-the-samurai/</guid>
+      <description>&lt;img src=&#34;http://localhost:1313/images/thesamurai.jpg&#34; alt=&#34;The Samurai&#34; style=&#34;float:right;width:180px;margin:0 0 1.5rem 2rem;border-radius:0%;&#34; /&gt;
 &lt;p&gt;I had never previously read anything by Shusaku Endo. All I knew about him was that one of his novels, Silence, had been adapted into an award-winning film directed by Martin Scorsese. I had watched bits and pieces of the movie, and it was compelling enough to spark my curiosity about the events that took place in Japan during the 1500–1600s. Discovering that The Samurai was set in this period, I decided to give the book a try. I went in without expectations and emerged with a new perspective on faith and what it means to us.&lt;/p&gt;</description>
     </item>
   </channel>

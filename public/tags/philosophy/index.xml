@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Philosophy on The Big Banyan Tree</title>
-    <link>https://jarunakiran.in/tags/philosophy/</link>
+    <link>http://localhost:1313/tags/philosophy/</link>
     <description>Recent content in Philosophy on The Big Banyan Tree</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 19 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jarunakiran.in/tags/philosophy/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/philosophy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Reading Notes - The Beauty of Everyday Things by Soetsu Yanagi</title>
-      <link>https://jarunakiran.in/blog/2026-04-19-reading-notes-the-beauty-of-everyday-things/</link>
+      <link>http://localhost:1313/blog/2026-04-19-reading-notes-the-beauty-of-everyday-things/</link>
       <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://jarunakiran.in/blog/2026-04-19-reading-notes-the-beauty-of-everyday-things/</guid>
-      <description>&lt;img src=&#34;https://jarunakiran.in/images/soetsu-yanagi-beauty.jpg&#34; alt=&#34;Inspector Imanishi Investigates&#34; style=&#34;float:right;width:180px;margin:0 0 1.5rem 2rem;border-radius:0%;&#34; /&gt;
+      <guid>http://localhost:1313/blog/2026-04-19-reading-notes-the-beauty-of-everyday-things/</guid>
+      <description>&lt;img src=&#34;http://localhost:1313/images/soetsu-yanagi-beauty.jpg&#34; alt=&#34;Inspector Imanishi Investigates&#34; style=&#34;float:right;width:180px;margin:0 0 1.5rem 2rem;border-radius:0%;&#34; /&gt;
 &lt;p&gt;Start Date: 17-April-2026&lt;/p&gt;
 &lt;p&gt;End Date:&lt;/p&gt;
 &lt;hr&gt;
