@@ -1,0 +1,54 @@
+{{ define "main" }}
+
+<div class="notes-page">
+
+  <!-- Header -->
+  <div class="notes-header">
+    <h1>{{ .Title }}</h1>
+
+    {{ with .Params.description }}
+      <p class="notes-description">{{ . }}</p>
+    {{ end }}
+  </div>
+
+  <!-- Notes Grid -->
+  <div class="notes-grid">
+    {{ range .Paginator.Pages }}
+      <a href="{{ .RelPermalink }}" class="note-card">
+
+        <div class="note-content">
+          <h2 class="note-title">{{ .Title }}</h2>
+
+          <p class="note-date">
+            {{ .Date.Format "Jan 2, 2006" }}
+          </p>
+
+          <div class="note-tags">
+            {{ range .Params.tags }}
+              <span class="note-tag">{{ . }}</span>
+            {{ end }}
+          </div>
+
+          <p class="note-summary">
+            {{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}
+          </p>
+        </div>
+
+      </a>
+    {{ end }}
+  </div>
+
+  <!-- Pagination -->
+  <div class="pagination">
+    {{ if .Paginator.HasPrev }}
+      <a href="{{ .Paginator.Prev.URL }}">← Previous</a>
+    {{ end }}
+
+    {{ if .Paginator.HasNext }}
+      <a href="{{ .Paginator.Next.URL }}">Next →</a>
+    {{ end }}
+  </div>
+
+</div>
+
+{{ end }}

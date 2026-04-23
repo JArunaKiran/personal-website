@@ -2,18 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Home on The Big Banyan Tree</title>
-    <link>https://jarunakiran.in/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Home on The Big Banyan Tree</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jarunakiran.in/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zettlekasten Note Taking Method</title>
+      <link>http://localhost:1313/notes/2026-04-22-zettlekasten-note-taking-method/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/2026-04-22-zettlekasten-note-taking-method/</guid>
+      <description>&lt;p&gt;TIL about the &lt;em&gt;Zettelkasten&lt;/em&gt; note-taking method. It&amp;rsquo;s an effective knowledge management system developed by the German sociologist, Niklas Luhmann. Zettelkasten means box of cards in German. It&amp;rsquo;s a way to build a web of knowledge, find meaningful connections among topics and use these links to develop ideas and arguments. Another way to think about this is how do you connect something you learn with something you already know.&lt;/p&gt;
+&lt;p&gt;The building block of this system is something called &amp;lsquo;Literature Notes&amp;rsquo;. These are the notes that one writes while consuming content. The rules of writing a literature note are - one atomic idea per note, has to be very short (3-5 sentences), has to be expressed in one&amp;rsquo;s own words (not copied), and must have a reference to track where the note came from. From literature notes, a permanent note is made which could be thought of as a thematic collection of literature notes.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Reading Notes - The Beauty of Everyday Things by Soetsu Yanagi</title>
-      <link>https://jarunakiran.in/blog/2026-04-19-reading-notes-the-beauty-of-everyday-things/</link>
+      <link>http://localhost:1313/blog/2026-04-19-reading-notes-the-beauty-of-everyday-things/</link>
       <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://jarunakiran.in/blog/2026-04-19-reading-notes-the-beauty-of-everyday-things/</guid>
-      <description>&lt;img src=&#34;https://jarunakiran.in/images/soetsu-yanagi-beauty.jpg&#34; alt=&#34;Inspector Imanishi Investigates&#34; style=&#34;float:right;width:180px;margin:0 0 1.5rem 2rem;border-radius:0%;&#34; /&gt;
+      <guid>http://localhost:1313/blog/2026-04-19-reading-notes-the-beauty-of-everyday-things/</guid>
+      <description>&lt;img src=&#34;http://localhost:1313/images/soetsu-yanagi-beauty.jpg&#34; alt=&#34;Inspector Imanishi Investigates&#34; style=&#34;float:right;width:180px;margin:0 0 1.5rem 2rem;border-radius:0%;&#34; /&gt;
 &lt;p&gt;Start Date: 17-April-2026&lt;/p&gt;
 &lt;p&gt;End Date:&lt;/p&gt;
 &lt;hr&gt;
@@ -22,37 +30,34 @@ The manager, a kind and elderly gentleman, gave me the book and wished me a happ
     </item>
     <item>
       <title>Reading Notes - Inspector Imanishi Investigates by Seicho Matsumoto</title>
-      <link>https://jarunakiran.in/blog/2026-03-30-reading-notes-inspector-imanishi-investigates/</link>
+      <link>http://localhost:1313/blog/2026-03-30-reading-notes-inspector-imanishi-investigates/</link>
       <pubDate>Mon, 30 Mar 2026 19:08:02 +0530</pubDate>
-      <guid>https://jarunakiran.in/blog/2026-03-30-reading-notes-inspector-imanishi-investigates/</guid>
-      <description>&lt;img src=&#34;https://jarunakiran.in/images/seicho.png&#34; alt=&#34;Inspector Imanishi Investigates&#34; style=&#34;float:right;width:180px;margin:0 0 1.5rem 2rem;border-radius:0%;&#34; /&gt;
+      <guid>http://localhost:1313/blog/2026-03-30-reading-notes-inspector-imanishi-investigates/</guid>
+      <description>&lt;img src=&#34;http://localhost:1313/images/seicho.png&#34; alt=&#34;Inspector Imanishi Investigates&#34; style=&#34;float:right;width:180px;margin:0 0 1.5rem 2rem;border-radius:0%;&#34; /&gt;
 &lt;p&gt;&amp;lsquo;Reading Notes&amp;rsquo; is one of my initiatives to keep a tab of what I read and when I read. These are just my general musing; I am interested in recording my thoughts as I read so that I can look back and reflect on my thought patterns. It will be a raw, unedited version of my thoughts.&lt;/p&gt;
 &lt;p&gt;So here it goes. I am starting with &amp;lsquo;Inspector Imanishi Investigates&amp;rsquo; by Seicho Matsumoto.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Book Review - The Samurai by Shusaku Endo</title>
-      <link>https://jarunakiran.in/blog/2025-12-12-book-review-the-samurai/</link>
+      <link>http://localhost:1313/blog/2025-12-12-book-review-the-samurai/</link>
       <pubDate>Fri, 12 Dec 2025 19:08:02 +0530</pubDate>
-      <guid>https://jarunakiran.in/blog/2025-12-12-book-review-the-samurai/</guid>
-      <description>&lt;img src=&#34;https://jarunakiran.in/images/thesamurai.jpg&#34; alt=&#34;The Samurai&#34; style=&#34;float:right;width:180px;margin:0 0 1.5rem 2rem;border-radius:0%;&#34; /&gt;
+      <guid>http://localhost:1313/blog/2025-12-12-book-review-the-samurai/</guid>
+      <description>&lt;img src=&#34;http://localhost:1313/images/thesamurai.jpg&#34; alt=&#34;The Samurai&#34; style=&#34;float:right;width:180px;margin:0 0 1.5rem 2rem;border-radius:0%;&#34; /&gt;
 &lt;p&gt;I had never previously read anything by Shusaku Endo. All I knew about him was that one of his novels, Silence, had been adapted into an award-winning film directed by Martin Scorsese. I had watched bits and pieces of the movie, and it was compelling enough to spark my curiosity about the events that took place in Japan during the 1500–1600s. Discovering that The Samurai was set in this period, I decided to give the book a try. I went in without expectations and emerged with a new perspective on faith and what it means to us.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>https://jarunakiran.in/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jarunakiran.in/about/</guid>
-      <description>&lt;p&gt;👋 Hi, I’m Aruna - currently working as a Product Manager in Bangalore, India. This phrase from Batman Begins probably sums me up the best - &lt;blockquote class=&#34;custom-quote&#34;&gt;
-  “It’s not who I am underneath, but what I do that defines me.” 
-&lt;/blockquote&gt; Outside of work, I love to read fiction novels, listen to modern jazz and watch crime procedural dramas. Also, a proud Rafa fan. 😍&lt;/p&gt;
-&lt;h2 id=&#34;about-the-blog&#34;&gt;About the Blog&lt;/h2&gt;
-&lt;p&gt;Let me share why I chose this name. I’ve always been fascinated by banyan trees; they feel both majestic and calming at once. Whenever I sit beneath one and look up at its vast canopy, I can’t help but marvel at its grandeur. I often juxtapose this expansiveness with that of the universe, and in doing so, I’m instantly humbled by my own insignificance in comparison to these magnificent creations.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;👋 Hi, I’m Aruna - currently working as a Senior Product Manager at CoinDCX in Bangalore, India. I began my PM journey in Trust &amp;amp; Safety, and five years on, I continue to build my career in the field. Prior to entering the crypto space, I worked in fintech at PhonePe and in the energy sector at Enphase Energy.
+Outside of work, I love to read fiction novels, listen to modern jazz and watch crime procedural dramas. Also, a proud Rafa fan. 😍&lt;/p&gt;</description>
     </item>
     <item>
       <title>Values</title>
-      <link>https://jarunakiran.in/values/</link>
+      <link>http://localhost:1313/values/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://jarunakiran.in/values/</guid>
+      <guid>http://localhost:1313/values/</guid>
       <description>&lt;p&gt;My Value System&lt;/p&gt;</description>
     </item>
   </channel>

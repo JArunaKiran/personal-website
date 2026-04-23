@@ -11,6 +11,9 @@ theme = 'PaperMod'
     [markup.goldmark.renderer]
       unsafe = true
 
+[pagination]
+  pagerSize = 36
+
 [params]
   defaultTheme = "light"
   ShowTags = true
@@ -45,4 +48,10 @@ theme = 'PaperMod'
   [[menu.main]]
   name = "Blog"
   url = "/blog/"
-  weight = 3
+  weight = 4
+
+[[menu.main]]
+  name = "Notes"
+  url = "/notes/"
+  weight = 4
+

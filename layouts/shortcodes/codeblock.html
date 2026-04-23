@@ -1,0 +1,9 @@
+<div class="custom-codeblock">
+  <div class="code-header">
+    <span>{{ .Get "lang" | default "code" }}</span>
+    <button onclick="navigator.clipboard.writeText(this.nextElementSibling.innerText)">
+      Copy
+    </button>
+  </div>
+  <pre><code>{{ .Inner }}</code></pre>
+</div>

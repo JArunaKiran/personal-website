@@ -2,45 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on The Big Banyan Tree</title>
-    <link>https://jarunakiran.in/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on The Big Banyan Tree</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 19 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jarunakiran.in/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Note-Taking</title>
+      <link>http://localhost:1313/tags/note-taking/</link>
+      <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/note-taking/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Philosophy</title>
-      <link>https://jarunakiran.in/tags/philosophy/</link>
+      <link>http://localhost:1313/tags/philosophy/</link>
       <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://jarunakiran.in/tags/philosophy/</guid>
+      <guid>http://localhost:1313/tags/philosophy/</guid>
       <description></description>
     </item>
     <item>
       <title>Reading Notes</title>
-      <link>https://jarunakiran.in/tags/reading-notes/</link>
+      <link>http://localhost:1313/tags/reading-notes/</link>
       <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://jarunakiran.in/tags/reading-notes/</guid>
+      <guid>http://localhost:1313/tags/reading-notes/</guid>
       <description></description>
     </item>
     <item>
       <title>Mystery</title>
-      <link>https://jarunakiran.in/tags/mystery/</link>
+      <link>http://localhost:1313/tags/mystery/</link>
       <pubDate>Mon, 30 Mar 2026 19:08:02 +0530</pubDate>
-      <guid>https://jarunakiran.in/tags/mystery/</guid>
+      <guid>http://localhost:1313/tags/mystery/</guid>
       <description></description>
     </item>
     <item>
       <title>Book Review</title>
-      <link>https://jarunakiran.in/tags/book-review/</link>
+      <link>http://localhost:1313/tags/book-review/</link>
       <pubDate>Fri, 12 Dec 2025 19:08:02 +0530</pubDate>
-      <guid>https://jarunakiran.in/tags/book-review/</guid>
+      <guid>http://localhost:1313/tags/book-review/</guid>
       <description></description>
     </item>
     <item>
       <title>Fiction</title>
-      <link>https://jarunakiran.in/tags/fiction/</link>
+      <link>http://localhost:1313/tags/fiction/</link>
       <pubDate>Fri, 12 Dec 2025 19:08:02 +0530</pubDate>
-      <guid>https://jarunakiran.in/tags/fiction/</guid>
+      <guid>http://localhost:1313/tags/fiction/</guid>
       <description></description>
     </item>
   </channel>
