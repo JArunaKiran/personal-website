@@ -3,15 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-04-23T12:08:38+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/notes/my-new-note/</loc>
-    <lastmod>2026-04-23T12:08:38+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/notes/</loc>
-    <lastmod>2026-04-23T12:08:38+05:30</lastmod>
+    <lastmod>2026-04-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/note-taking/</loc>
+    <lastmod>2026-04-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/notes/</loc>
     <lastmod>2026-04-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
