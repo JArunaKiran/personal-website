@@ -1,0 +1,9 @@
+<li>
+  <label>
+    <input
+      type="checkbox"
+      {{ if eq (.Get "checked") "true" }}checked{{ end }}
+    >
+    <span>{{ .Inner }}</span>
+  </label>
+</li>   

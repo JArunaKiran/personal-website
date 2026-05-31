@@ -6,8 +6,15 @@
     <description>Recent content in Tags on The Big Banyan Tree</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 09 May 2026 11:15:59 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 12:16:24 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wishlist</title>
+      <link>http://localhost:1313/tags/wishlist/</link>
+      <pubDate>Sun, 31 May 2026 12:16:24 +0530</pubDate>
+      <guid>http://localhost:1313/tags/wishlist/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Philosophy</title>
       <link>http://localhost:1313/tags/philosophy/</link>
@@ -55,6 +62,13 @@
       <link>http://localhost:1313/tags/fiction/</link>
       <pubDate>Fri, 12 Dec 2025 19:08:02 +0530</pubDate>
       <guid>http://localhost:1313/tags/fiction/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Checklist</title>
+      <link>http://localhost:1313/tags/checklist/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/checklist/</guid>
       <description></description>
     </item>
   </channel>

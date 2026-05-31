@@ -361,3 +361,23 @@ h1,h2,h3 {
   padding: 16px;
   overflow-x: auto;
 }
+
+/* ===== Checklist styling ===== */
+.checklist {
+  padding-left: 0;
+}
+
+.checklist li {
+  list-style: none;
+  margin: 0.5rem 0;
+}
+
+.checklist input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.checklist input[type="checkbox"]:checked + span {
+  color: #2e8b57;
+  font-weight: bold;
+}
+
