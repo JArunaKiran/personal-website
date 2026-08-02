@@ -5,12 +5,42 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>About Me | The Big Banyan Tree</title>
+<title>Hugo Commands | The Big Banyan Tree</title>
 <meta name="keywords" content="">
-<meta name="description" content="👋 Hi, I’m Aruna - currently working as a Senior Product Manager at CoinDCX in Bangalore, India. I began my PM journey in Trust &amp; Safety, and five years on, I continue to build my career in the field. Prior to entering the crypto space, I worked in fintech at PhonePe and in the energy sector at Enphase Energy.
-Outside of work, I love to read fiction novels, listen to modern jazz and watch crime procedural dramas. Also, a proud Rafa fan. 😍">
+<meta name="description" content="I have designed my blog using Hugo, and to keep updating the blog, I would use Hugo commands quite often. I have compiled a list of the more frequently used Hugo commands and publish in &lsquo;Notes&rsquo; here for record-keeping purpose.
+
+  
+    hugo
+    
+      Copy
+    
+  
+  
+hugo new blog/post-title.md  // to publish a new blog post
+hugo new notes/notes-title.md  //to publish a new note
+hugo server  //to start the local server where I can view all my changes
+hugo server -D // local server environment where I can see the draft changes as well
+
+
+Below are the git commands to push my changes to production:
+
+  
+    hugo
+    
+      Copy
+    
+  
+  
+git add . 
+git commit -m &#34;commit title&#34;
+git push origin main 
+git log --oneline  //to see recent commits
+git diff // to see the exact changes
+git status   //to check what&#39;s changed
+
+">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/about/">
+<link rel="canonical" href="http://localhost:1313/notes/2025-02-08-hugo-commands/">
 
 <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
@@ -26,7 +56,7 @@ Outside of work, I love to read fiction novels, listen to modern jazz and watch 
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/about/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/notes/2025-02-08-hugo-commands/">
 <noscript>
     <style>
         #theme-toggle,
@@ -80,7 +110,7 @@ Outside of work, I love to read fiction novels, listen to modern jazz and watch 
         <ul id="menu" class="menu">
             <li>
                 <a href="http://localhost:1313/about/" title="About Me">
-                    <span class="active">About Me</span>
+                    <span>About Me</span>
                 </a>
             </li>
             <li>
@@ -108,29 +138,70 @@ Outside of work, I love to read fiction novels, listen to modern jazz and watch 
 </header>
 <main class="main">
 
-<div class="about-wrapper">
+<article class="post-single">
+  <header class="post-header">
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='http://localhost:1313/'>Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="http://localhost:1313/notes/">Notes</a></nav>
+    <h1 class="post-title entry-hint-parent">
+      Hugo Commands
+    </h1>
+    <div class="post-meta"><span title='2026-08-02 18:20:01 +0530 IST'>August 2, 2026</span>&nbsp;·&nbsp;<span>1 min</span>
 
-  <img src="/images/profile.jpeg" alt="Profile Photo" class="about-image">
+</div>
+  </header> 
+  <div class="post-content md-content"><p>I have designed my blog using Hugo, and to keep updating the blog, I would use Hugo commands quite often. I have compiled a list of the more frequently used Hugo commands and publish in &lsquo;Notes&rsquo; here for record-keeping purpose.</p>
+<div class="custom-codeblock">
+  <div class="code-header">
+    <span>hugo</span>
+    <button onclick="navigator.clipboard.writeText(this.nextElementSibling.innerText)">
+      Copy
+    </button>
+  </div>
+  <pre><code>
+hugo new blog/post-title.md  // to publish a new blog post
+hugo new notes/notes-title.md  //to publish a new note
+hugo server  //to start the local server where I can view all my changes
+hugo server -D // local server environment where I can see the draft changes as well
+</code></pre>
+</div>
+<p>Below are the git commands to push my changes to production:
+<div class="custom-codeblock">
+  <div class="code-header">
+    <span>hugo</span>
+    <button onclick="navigator.clipboard.writeText(this.nextElementSibling.innerText)">
+      Copy
+    </button>
+  </div>
+  <pre><code>
+git add . 
+git commit -m "commit title"
+git push origin main 
+git log --oneline  //to see recent commits
+git diff // to see the exact changes
+git status   //to check what's changed
+</code></pre>
+</div></p>
 
-  <div class="about-content">
-    <h1>About Me</h1>
-    <p></p>
-    <p>👋 Hi, I’m Aruna - currently working as a Senior Product Manager at CoinDCX in Bangalore, India. I began my PM journey in Trust &amp; Safety, and five years on, I continue to build my career in the field. Prior to entering the crypto space, I worked in fintech at PhonePe and in the energy sector at Enphase Energy.
-Outside of work, I love to read fiction novels, listen to modern jazz and watch crime procedural dramas. Also, a proud Rafa fan. 😍</p>
-<p>This phrase from the movie <em>Batman Begins</em> probably sums me up the best -
-<blockquote class="custom-quote">
-    It’s not who I am underneath, but what I do that defines me. 
-</blockquote></p>
-<h2 id="about-the-blog">About the Blog</h2>
-<p>Let me share why I chose this name. I’ve always been fascinated by banyan trees; they feel both majestic and calming at once. Whenever I sit beneath one and look up at its vast canopy, I can’t help but marvel at its grandeur. I often juxtapose this expansiveness with that of the universe, and in doing so, I’m instantly humbled by my own insignificance in comparison to these magnificent creations.</p>
-<p>I named the blog after the banyan tree because, much like the tree itself, this space is meant for reflection, insight, and learning. It is my digital garden, one I hope to share with the world. And just as people rest, contemplate, and breathe under the shade of a banyan tree, this blog is my virtual equivalent - my mental rest-stop for slow thinking, deep ideas, and mindful writing. The banyan tree is also a place where people gather and exchange stories, and I hope my readers will do the same here - engage, connect, and converse.</p>
-<p>Thanks for visiting and I hope you have a wonderful day!</p>
 
   </div>
 
-</div>
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+<nav class="paginav">
+  <a class="next" href="http://localhost:1313/notes/2026-05-31-bookstores-to-vist/">
+    <span class="title">Next »</span>
+    <span>Cataloging my visit to Bookstores</span>
+  </a>
+</nav>
 
-
+  </footer>
+</article>
     </main>
     
 <footer class="footer">

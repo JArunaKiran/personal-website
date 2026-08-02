@@ -64,12 +64,5 @@
       <guid>http://localhost:1313/tags/fiction/</guid>
       <description></description>
     </item>
-    <item>
-      <title>Checklist</title>
-      <link>http://localhost:1313/tags/checklist/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/checklist/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>

@@ -31,7 +31,8 @@ Taking a leaf out of his book, I want to chronicle a list of all the bookstores 
 
 - [ ]Shakespeare & Company, Paris
 - [ ]Persephone Books, London
+- [x]Bookworm, Hanoi
 
 
 
-<i>Note: The list will keep getting updated. Last updated on 31 May 2026</i>
+<i>Note: The list will keep getting updated. Last updated on 02 Aug 2026</i>

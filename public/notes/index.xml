@@ -6,8 +6,46 @@
     <description>Recent content in Notes on The Big Banyan Tree</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 May 2026 12:16:24 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2026 18:20:01 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo Commands</title>
+      <link>http://localhost:1313/notes/2025-02-08-hugo-commands/</link>
+      <pubDate>Sun, 02 Aug 2026 18:20:01 +0530</pubDate>
+      <guid>http://localhost:1313/notes/2025-02-08-hugo-commands/</guid>
+      <description>&lt;p&gt;I have designed my blog using Hugo, and to keep updating the blog, I would use Hugo commands quite often. I have compiled a list of the more frequently used Hugo commands and publish in &amp;lsquo;Notes&amp;rsquo; here for record-keeping purpose.&lt;/p&gt;
+&lt;div class=&#34;custom-codeblock&#34;&gt;
+  &lt;div class=&#34;code-header&#34;&gt;
+    &lt;span&gt;hugo&lt;/span&gt;
+    &lt;button onclick=&#34;navigator.clipboard.writeText(this.nextElementSibling.innerText)&#34;&gt;
+      Copy
+    &lt;/button&gt;
+  &lt;/div&gt;
+  &lt;pre&gt;&lt;code&gt;
+hugo new blog/post-title.md  // to publish a new blog post
+hugo new notes/notes-title.md  //to publish a new note
+hugo server  //to start the local server where I can view all my changes
+hugo server -D // local server environment where I can see the draft changes as well
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Below are the git commands to push my changes to production:
+&lt;div class=&#34;custom-codeblock&#34;&gt;
+  &lt;div class=&#34;code-header&#34;&gt;
+    &lt;span&gt;hugo&lt;/span&gt;
+    &lt;button onclick=&#34;navigator.clipboard.writeText(this.nextElementSibling.innerText)&#34;&gt;
+      Copy
+    &lt;/button&gt;
+  &lt;/div&gt;
+  &lt;pre&gt;&lt;code&gt;
+git add . 
+git commit -m &#34;commit title&#34;
+git push origin main 
+git log --oneline  //to see recent commits
+git diff // to see the exact changes
+git status   //to check what&#39;s changed
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Cataloging my visit to Bookstores</title>
       <link>http://localhost:1313/notes/2026-05-31-bookstores-to-vist/</link>
