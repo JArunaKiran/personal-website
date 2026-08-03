@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Home on The Big Banyan Tree</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:51428/</link>
     <description>Recent content in Home on The Big Banyan Tree</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 02 Aug 2026 18:46:55 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:51428/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title> I Did Not Vibecode This Travel Journal</title>
-      <link>http://localhost:1313/blog/2026-08-02-i-didnt-vibecode-this-travel-journal/</link>
+      <link>http://localhost:51428/blog/2026-08-02-i-didnt-vibecode-this-travel-journal/</link>
       <pubDate>Sun, 02 Aug 2026 18:46:55 +0530</pubDate>
-      <guid>http://localhost:1313/blog/2026-08-02-i-didnt-vibecode-this-travel-journal/</guid>
+      <guid>http://localhost:51428/blog/2026-08-02-i-didnt-vibecode-this-travel-journal/</guid>
       <description>&lt;p&gt;Over the past one and a half years, my husband and I have taken two international trips, visiting nearly ten cities across different countries. The knowledge I&amp;rsquo;ve gained and the experiences I&amp;rsquo;ve had during these journeys are both vast and deeply personal. They are the kind of memories worth preserving.&lt;/p&gt;
 &lt;p&gt;During our first trip to Germany, I carried a notebook with the intention of jotting down my thoughts and experiences as we explored each city. To my credit, I managed to fill several pages during the first few days. However, writing by hand felt slow and unfamiliar, as I&amp;rsquo;m far more accustomed to typing. By the end of the trip, I had documented only about half the cities we visited, and even those entries felt vague and superficial. I couldn&amp;rsquo;t fully capture the places I had seen, the food I had tasted, or the countless little moments that made the journey memorable.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hugo Commands</title>
-      <link>http://localhost:1313/notes/2026-08-02-hugo-commands/</link>
+      <link>http://localhost:51428/notes/2026-08-02-hugo-commands/</link>
       <pubDate>Sun, 02 Aug 2026 18:20:01 +0530</pubDate>
-      <guid>http://localhost:1313/notes/2026-08-02-hugo-commands/</guid>
+      <guid>http://localhost:51428/notes/2026-08-02-hugo-commands/</guid>
       <description>&lt;p&gt;I designed my blog using Hugo, and I use Hugo commands frequently to keep it updated. I&amp;rsquo;ve compiled a list of the Hugo commands I use most often and published it here in the Notes section for my own reference and record-keeping&lt;/p&gt;
 &lt;div class=&#34;custom-codeblock&#34;&gt;
   &lt;div class=&#34;code-header&#34;&gt;
@@ -56,9 +56,9 @@ git status   //to check what&#39;s changed
     </item>
     <item>
       <title>Cataloging my visit to Bookstores</title>
-      <link>http://localhost:1313/notes/2026-05-31-bookstores-to-vist/</link>
+      <link>http://localhost:51428/notes/2026-05-31-bookstores-to-vist/</link>
       <pubDate>Sun, 31 May 2026 12:16:24 +0530</pubDate>
-      <guid>http://localhost:1313/notes/2026-05-31-bookstores-to-vist/</guid>
+      <guid>http://localhost:51428/notes/2026-05-31-bookstores-to-vist/</guid>
       <description>&lt;p&gt;&lt;blockquote class=&#34;custom-quote&#34;&gt;
   Independent bookstores are central to a thriving local community and are also one of the last truly democratic institutions that are free for all. 
 &lt;/blockquote&gt;
@@ -68,38 +68,27 @@ Taking a leaf out of his book, I want to chronicle a list of all the bookstores 
     </item>
     <item>
       <title>Epictetus - On Progress</title>
-      <link>http://localhost:1313/notes/2026-05-09-epictetus-discourses/</link>
+      <link>http://localhost:51428/notes/2026-05-09-epictetus-discourses/</link>
       <pubDate>Sat, 09 May 2026 11:15:59 +0530</pubDate>
-      <guid>http://localhost:1313/notes/2026-05-09-epictetus-discourses/</guid>
+      <guid>http://localhost:51428/notes/2026-05-09-epictetus-discourses/</guid>
       <description>&lt;p&gt;&lt;blockquote class=&#34;custom-quote&#34;&gt;
   Where is progress then? If there is anyone who renounces externals and attends instead to their character, cultivating and perfecting it so that it agrees with nature, making it honest and trustworthy, elevated, free, unchecked and undeterred; and if they&#39;ve learned that whoever desires or avoids things outside their control cannot be free or faithful, but has to shift and fluctuate right along with them, subject to anyone with the power to furnish or deprive them of those externals; and if from the moment they get up in the morning they adhere to the ideals, eating and bathing like a person of integrity, putting their principles into practice in every situation they face - the way a runner does when he applies the principles of running, or a singer those of musicianship - that is where you will see true progress embodied, and find someone who has not wasted their time making the journey here from home. 
 &lt;/blockquote&gt; - Epictetus, Discourses&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Setting up my blog</title>
-      <link>http://localhost:1313/blog/2026-04-23-setting-up-the-blog/</link>
-      <pubDate>Thu, 23 Apr 2026 11:53:39 +0530</pubDate>
-      <guid>http://localhost:1313/blog/2026-04-23-setting-up-the-blog/</guid>
-      <description>&lt;p&gt;Over the past few years, I have repeatedly tried and failed to set up my blog. My motivation to start my personal website stemmed from a perpetual feeling of boredom and a general lack of creativity. Let me give some more background context to this.&lt;/p&gt;
-&lt;h2&gt;2008-2012s&lt;/h2&gt;
-I used to write a lot when I was young. At school, my poems and essays would get published in the school magazine. My short stories were read and appreciated by my English language instructors. I beamed with pride upon their recognition. I used to *create* something back then. My words were my own, an expression of what I genuinely felt and thought. My thoughts were unfiltered and my opinions were strong, undeterred. I never got anyone to seriously review my writing, mostly because I felt scared someone would ask me to change my words which I had carefully and painstakingly selected. 
-I recall using the thesaurus functionality in MS Word. I would look up the synonyms of the words I thought rawly, and then I would select the word which would fit best in the sentence.
-&lt;p&gt;There has been a marked change in me since I graduated from school. I fell out of habit of writing. I have never delved into its reasons nor I will in the future. It would be a wasteful exercise; time is better spent analysing the changes in me before and after I left writing. I think writing did me a lot of good intellectually. I used to think on my feet. I could frame my points well and I could communicate it across to the other person in a convincing manner.&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>Zettlekasten Note Taking Method</title>
-      <link>http://localhost:1313/notes/2026-04-22-zettlekasten-note-taking-method/</link>
+      <link>http://localhost:51428/notes/2026-04-22-zettlekasten-note-taking-method/</link>
       <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2026-04-22-zettlekasten-note-taking-method/</guid>
+      <guid>http://localhost:51428/notes/2026-04-22-zettlekasten-note-taking-method/</guid>
       <description>&lt;p&gt;TIL about the &lt;em&gt;Zettelkasten&lt;/em&gt; note-taking method. It&amp;rsquo;s an effective knowledge management system developed by the German sociologist, Niklas Luhmann. Zettelkasten means box of cards in German. It&amp;rsquo;s a way to build a web of knowledge, find meaningful connections among topics and use these links to develop ideas and arguments. Another way to think about this is how do you connect something you learn with something you already know.&lt;/p&gt;
 &lt;p&gt;The building block of this system is something called &amp;lsquo;Literature Notes&amp;rsquo;. These are the notes that one writes while consuming content. The rules of writing a literature note are - one atomic idea per note, has to be very short (3-5 sentences), has to be expressed in one&amp;rsquo;s own words (not copied), and must have a reference to track where the note came from. From literature notes, a permanent note is made which could be thought of as a thematic collection of literature notes.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Reading Notes - The Beauty of Everyday Things by Soetsu Yanagi</title>
-      <link>http://localhost:1313/blog/2026-04-19-reading-notes-the-beauty-of-everyday-things/</link>
+      <link>http://localhost:51428/blog/2026-04-19-reading-notes-the-beauty-of-everyday-things/</link>
       <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/2026-04-19-reading-notes-the-beauty-of-everyday-things/</guid>
-      <description>&lt;img src=&#34;http://localhost:1313/images/soetsu-yanagi-beauty.jpg&#34; alt=&#34;Inspector Imanishi Investigates&#34; style=&#34;float:right;width:180px;margin:0 0 1.5rem 2rem;border-radius:0%;&#34; /&gt;
+      <guid>http://localhost:51428/blog/2026-04-19-reading-notes-the-beauty-of-everyday-things/</guid>
+      <description>&lt;img src=&#34;http://localhost:51428/images/soetsu-yanagi-beauty.jpg&#34; alt=&#34;Inspector Imanishi Investigates&#34; style=&#34;float:right;width:180px;margin:0 0 1.5rem 2rem;border-radius:0%;&#34; /&gt;
 &lt;p&gt;Start Date: 17-April-2026&lt;/p&gt;
 &lt;p&gt;End Date:&lt;/p&gt;
 &lt;hr&gt;
@@ -108,34 +97,34 @@ The manager, a kind and elderly gentleman, gave me the book and wished me a happ
     </item>
     <item>
       <title>Reading Notes - Inspector Imanishi Investigates by Seicho Matsumoto</title>
-      <link>http://localhost:1313/blog/2026-03-30-reading-notes-inspector-imanishi-investigates/</link>
+      <link>http://localhost:51428/blog/2026-03-30-reading-notes-inspector-imanishi-investigates/</link>
       <pubDate>Mon, 30 Mar 2026 19:08:02 +0530</pubDate>
-      <guid>http://localhost:1313/blog/2026-03-30-reading-notes-inspector-imanishi-investigates/</guid>
-      <description>&lt;img src=&#34;http://localhost:1313/images/seicho.png&#34; alt=&#34;Inspector Imanishi Investigates&#34; style=&#34;float:right;width:180px;margin:0 0 1.5rem 2rem;border-radius:0%;&#34; /&gt;
+      <guid>http://localhost:51428/blog/2026-03-30-reading-notes-inspector-imanishi-investigates/</guid>
+      <description>&lt;img src=&#34;http://localhost:51428/images/seicho.png&#34; alt=&#34;Inspector Imanishi Investigates&#34; style=&#34;float:right;width:180px;margin:0 0 1.5rem 2rem;border-radius:0%;&#34; /&gt;
 &lt;p&gt;&amp;lsquo;Reading Notes&amp;rsquo; is one of my initiatives to keep a tab of what I read and when I read. These are just my general musing; I am interested in recording my thoughts as I read so that I can look back and reflect on my thought patterns. It will be a raw, unedited version of my thoughts.&lt;/p&gt;
 &lt;p&gt;So here it goes. I am starting with &amp;lsquo;Inspector Imanishi Investigates&amp;rsquo; by Seicho Matsumoto.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Book Review - The Samurai by Shusaku Endo</title>
-      <link>http://localhost:1313/blog/2025-12-12-book-review-the-samurai/</link>
+      <link>http://localhost:51428/blog/2025-12-12-book-review-the-samurai/</link>
       <pubDate>Fri, 12 Dec 2025 19:08:02 +0530</pubDate>
-      <guid>http://localhost:1313/blog/2025-12-12-book-review-the-samurai/</guid>
-      <description>&lt;img src=&#34;http://localhost:1313/images/thesamurai.jpg&#34; alt=&#34;The Samurai&#34; style=&#34;float:right;width:180px;margin:0 0 1.5rem 2rem;border-radius:0%;&#34; /&gt;
+      <guid>http://localhost:51428/blog/2025-12-12-book-review-the-samurai/</guid>
+      <description>&lt;img src=&#34;http://localhost:51428/images/thesamurai.jpg&#34; alt=&#34;The Samurai&#34; style=&#34;float:right;width:180px;margin:0 0 1.5rem 2rem;border-radius:0%;&#34; /&gt;
 &lt;p&gt;I had never previously read anything by Shusaku Endo. All I knew about him was that one of his novels, Silence, had been adapted into an award-winning film directed by Martin Scorsese. I had watched bits and pieces of the movie, and it was compelling enough to spark my curiosity about the events that took place in Japan during the 1500–1600s. Discovering that The Samurai was set in this period, I decided to give the book a try. I went in without expectations and emerged with a new perspective on faith and what it means to us.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About Me</title>
-      <link>http://localhost:1313/about/</link>
+      <link>http://localhost:51428/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
+      <guid>http://localhost:51428/about/</guid>
       <description>&lt;p&gt;👋 Hi, I’m Aruna - currently working as a Senior Product Manager at CoinDCX in Bangalore, India. I began my PM journey in Trust &amp;amp; Safety, and five years on, I continue to build my career in the field. Prior to entering the crypto space, I worked in fintech at PhonePe and in the energy sector at Enphase Energy.
 Outside of work, I love to read fiction novels, listen to modern jazz and watch crime procedural dramas. Also, a proud Rafa fan. 😍&lt;/p&gt;</description>
     </item>
     <item>
       <title>Values</title>
-      <link>http://localhost:1313/values/</link>
+      <link>http://localhost:51428/values/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/values/</guid>
+      <guid>http://localhost:51428/values/</guid>
       <description>&lt;p&gt;My Value System&lt;/p&gt;</description>
     </item>
   </channel>

@@ -1,0 +1,84 @@
+/* ==========================================
+   Marginalia
+========================================== */
+
+.post-content {
+
+    position: relative;
+
+}
+
+.marginalia {
+
+    position: absolute;
+
+    top: 0;
+
+    left: calc(100% + 60px);
+
+    width: 240px;
+
+    min-height: 100%;
+
+    pointer-events: none;
+
+}
+/* marker */
+
+.sn-marker {
+
+    font-size: .72rem;
+
+    color: #8b6a45;
+
+    font-weight: 600;
+
+    vertical-align: super;
+
+    margin-left: 2px;
+
+}
+.sn-content {
+    display: none;
+}
+.margin-note {
+
+    position: absolute;
+
+    width: 220px;
+
+    border-left: 2px solid #ddd;
+
+    padding-left: 1rem;
+
+    font-family: "Libre Baskerville", serif;
+
+    font-size: .88rem;
+
+    line-height: 1.65;
+
+    color: #666;
+
+    pointer-events: auto;
+
+}
+
+.margin-number {
+
+    font-size: .72rem;
+
+    font-weight: 600;
+
+    color: #8b6a45;
+
+    margin-bottom: .35rem;
+
+}
+
+.margin-note p:first-child {
+    margin-top: 0;
+}
+
+.margin-note p:last-child {
+    margin-bottom: 0;
+}

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Notes on The Big Banyan Tree</title>
-    <link>http://localhost:1313/notes/</link>
+    <link>http://localhost:51428/notes/</link>
     <description>Recent content in Notes on The Big Banyan Tree</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 02 Aug 2026 18:20:01 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/notes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:51428/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo Commands</title>
-      <link>http://localhost:1313/notes/2026-08-02-hugo-commands/</link>
+      <link>http://localhost:51428/notes/2026-08-02-hugo-commands/</link>
       <pubDate>Sun, 02 Aug 2026 18:20:01 +0530</pubDate>
-      <guid>http://localhost:1313/notes/2026-08-02-hugo-commands/</guid>
+      <guid>http://localhost:51428/notes/2026-08-02-hugo-commands/</guid>
       <description>&lt;p&gt;I designed my blog using Hugo, and I use Hugo commands frequently to keep it updated. I&amp;rsquo;ve compiled a list of the Hugo commands I use most often and published it here in the Notes section for my own reference and record-keeping&lt;/p&gt;
 &lt;div class=&#34;custom-codeblock&#34;&gt;
   &lt;div class=&#34;code-header&#34;&gt;
@@ -48,9 +48,9 @@ git status   //to check what&#39;s changed
     </item>
     <item>
       <title>Cataloging my visit to Bookstores</title>
-      <link>http://localhost:1313/notes/2026-05-31-bookstores-to-vist/</link>
+      <link>http://localhost:51428/notes/2026-05-31-bookstores-to-vist/</link>
       <pubDate>Sun, 31 May 2026 12:16:24 +0530</pubDate>
-      <guid>http://localhost:1313/notes/2026-05-31-bookstores-to-vist/</guid>
+      <guid>http://localhost:51428/notes/2026-05-31-bookstores-to-vist/</guid>
       <description>&lt;p&gt;&lt;blockquote class=&#34;custom-quote&#34;&gt;
   Independent bookstores are central to a thriving local community and are also one of the last truly democratic institutions that are free for all. 
 &lt;/blockquote&gt;
@@ -60,18 +60,18 @@ Taking a leaf out of his book, I want to chronicle a list of all the bookstores 
     </item>
     <item>
       <title>Epictetus - On Progress</title>
-      <link>http://localhost:1313/notes/2026-05-09-epictetus-discourses/</link>
+      <link>http://localhost:51428/notes/2026-05-09-epictetus-discourses/</link>
       <pubDate>Sat, 09 May 2026 11:15:59 +0530</pubDate>
-      <guid>http://localhost:1313/notes/2026-05-09-epictetus-discourses/</guid>
+      <guid>http://localhost:51428/notes/2026-05-09-epictetus-discourses/</guid>
       <description>&lt;p&gt;&lt;blockquote class=&#34;custom-quote&#34;&gt;
   Where is progress then? If there is anyone who renounces externals and attends instead to their character, cultivating and perfecting it so that it agrees with nature, making it honest and trustworthy, elevated, free, unchecked and undeterred; and if they&#39;ve learned that whoever desires or avoids things outside their control cannot be free or faithful, but has to shift and fluctuate right along with them, subject to anyone with the power to furnish or deprive them of those externals; and if from the moment they get up in the morning they adhere to the ideals, eating and bathing like a person of integrity, putting their principles into practice in every situation they face - the way a runner does when he applies the principles of running, or a singer those of musicianship - that is where you will see true progress embodied, and find someone who has not wasted their time making the journey here from home. 
 &lt;/blockquote&gt; - Epictetus, Discourses&lt;/p&gt;</description>
     </item>
     <item>
       <title>Zettlekasten Note Taking Method</title>
-      <link>http://localhost:1313/notes/2026-04-22-zettlekasten-note-taking-method/</link>
+      <link>http://localhost:51428/notes/2026-04-22-zettlekasten-note-taking-method/</link>
       <pubDate>Wed, 22 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/2026-04-22-zettlekasten-note-taking-method/</guid>
+      <guid>http://localhost:51428/notes/2026-04-22-zettlekasten-note-taking-method/</guid>
       <description>&lt;p&gt;TIL about the &lt;em&gt;Zettelkasten&lt;/em&gt; note-taking method. It&amp;rsquo;s an effective knowledge management system developed by the German sociologist, Niklas Luhmann. Zettelkasten means box of cards in German. It&amp;rsquo;s a way to build a web of knowledge, find meaningful connections among topics and use these links to develop ideas and arguments. Another way to think about this is how do you connect something you learn with something you already know.&lt;/p&gt;
 &lt;p&gt;The building block of this system is something called &amp;lsquo;Literature Notes&amp;rsquo;. These are the notes that one writes while consuming content. The rules of writing a literature note are - one atomic idea per note, has to be very short (3-5 sentences), has to be expressed in one&amp;rsquo;s own words (not copied), and must have a reference to track where the note came from. From literature notes, a permanent note is made which could be thought of as a thematic collection of literature notes.&lt;/p&gt;</description>
     </item>

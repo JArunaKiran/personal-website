@@ -40,7 +40,7 @@ Having worked alongside software engineers for several years, I knew that a mono
 >}}
 
 ### 2. The PM way
-Being a Product Manager, I decided to approach the problem a little differently. I wrote a one-pager requirement doc [Travel Journal PRD](https://docs.google.com/document/d/1xJDEOXsB1SreNpiK0SJi89BCTb0VzWqC-F48d18C8QY/edit?tab=t.0) and used Google Stitch to create wireframes based on it.
+Being a Product Manager, I decided to approach the problem a little differently. I wrote a one-pager requirement doc [Travel Journal PRD](https://docs.google.com/document/d/1xJDEOXsB1SreNpiK0SJi89BCTb0VzWqC-F48d18C8QY/edit?tab=t.0) and used Google Stitch{{<sn>}}Stitch is Google's Figma equivalent{{</sn>}}to create wireframes based on it.
 The result was a beautiful set of wireframes that closely matched the product I had envisioned. I realised that this would require significant front-end development, and I simply didn't have time to make such a complex app. 
 {{< figure
     src="/images/google-stitch-travel-journal-wireframes.png"
@@ -49,11 +49,11 @@ The result was a beautiful set of wireframes that closely matched the product I 
 >}}
 
 ### 3. AI-assisted pair programming
-Looking back, I could have given better prompts in my first two attempts and asked the AI to build the app the way professional software developers do. The peril in adopting such an approach was that I would have delegated all the architectural decisions to AI without truly understanding what it is that I am building.  
+Looking back, I could have given better prompts in my first two attempts and asked the AI to build the app the way professional software developers do.The peril in adopting such an approach was that I would have delegated all the architectural decisions to AI without truly understanding what it is that I am building.
 In my third attempt, I took a more traditional software engineering approach. I owned the architectural decisions and used AI as a collaborator rather than the builder. With this approach, I did the following:
 - Started with the product idea and wrote out milestones.
 - Designed the data model (Trips, Itinerary, Journals, Expenses, Travelers, Settlements, etc.).
-- Chose the technology stack (Next.js, Prisma, PostgreSQL, NextAuth, Cloudinary).
+- Chose the technology stack (Next.js, Prisma, PostgreSQL, Google OAuth, Cloudinary).
 - Broke the work into features and implemented them incrementally.
 - Used AI to debug, explain concepts, and generate boilerplate, while making the architectural decisions myself
 - Refactored, migrated databases, and fixed issues as they arose.
