@@ -2,6 +2,7 @@
 date = '2026-08-02T18:46:55+05:30'
 draft = false
 title = ' I Did Not Vibecode This Travel Journal'
+tags = ['Tech', 'Coding']
 +++
 
 Over the past one and a half years, my husband and I have taken two international trips, visiting nearly ten cities across different countries. The knowledge I've gained and the experiences I've had during these journeys are both vast and deeply personal. They are the kind of memories worth preserving.
