@@ -10,10 +10,10 @@
     <atom:link href="http://localhost:1313/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo Commands</title>
-      <link>http://localhost:1313/notes/2025-02-08-hugo-commands/</link>
+      <link>http://localhost:1313/notes/2026-08-02-hugo-commands/</link>
       <pubDate>Sun, 02 Aug 2026 18:20:01 +0530</pubDate>
-      <guid>http://localhost:1313/notes/2025-02-08-hugo-commands/</guid>
-      <description>&lt;p&gt;I have designed my blog using Hugo, and to keep updating the blog, I would use Hugo commands quite often. I have compiled a list of the more frequently used Hugo commands and publish in &amp;lsquo;Notes&amp;rsquo; here for record-keeping purpose.&lt;/p&gt;
+      <guid>http://localhost:1313/notes/2026-08-02-hugo-commands/</guid>
+      <description>&lt;p&gt;I designed my blog using Hugo, and I use Hugo commands frequently to keep it updated. I&amp;rsquo;ve compiled a list of the Hugo commands I use most often and published it here in the Notes section for my own reference and record-keeping&lt;/p&gt;
 &lt;div class=&#34;custom-codeblock&#34;&gt;
   &lt;div class=&#34;code-header&#34;&gt;
     &lt;span&gt;hugo&lt;/span&gt;

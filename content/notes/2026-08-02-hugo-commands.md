@@ -4,7 +4,7 @@ draft = false
 title = 'Hugo Commands'
 +++
 
-I have designed my blog using Hugo, and to keep updating the blog, I would use Hugo commands quite often. I have compiled a list of the more frequently used Hugo commands and publish in 'Notes' here for record-keeping purpose. 
+I designed my blog using Hugo, and I use Hugo commands frequently to keep it updated. I've compiled a list of the Hugo commands I use most often and published it here in the Notes section for my own reference and record-keeping
 
 {{< codeblock lang="hugo" >}}
 hugo new blog/post-title.md  // to publish a new blog post
