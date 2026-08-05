@@ -3,6 +3,7 @@ date = '2026-05-31T12:16:24+05:30'
 draft = false
 title = 'Cataloging my visit to Bookstores'
 tags = ['wishlist']
+pinned = true
 +++
 
 {{<quote>}}Independent bookstores are central to a thriving local community and are also one of the last truly democratic institutions that are free for all. {{</quote>}}

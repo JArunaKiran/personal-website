@@ -393,3 +393,15 @@ figure figcaption {
     font-style: italic;
     color: var(--secondary);
 }
+/* ==========================================
+   Notes Sections
+========================================== */
+
+.pinned-notes {
+    margin-bottom: 3.5rem;
+}
+.section-title {
+    margin-bottom: 1.5rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+}

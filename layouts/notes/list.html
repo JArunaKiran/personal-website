@@ -11,42 +11,54 @@
     {{ end }}
   </div>
 
-  <!-- Notes Grid -->
-  <div class="notes-grid">
-    {{ range .Paginator.Pages }}
-      <a href="{{ .RelPermalink }}" class="note-card">
+  {{ $allNotes := .RegularPages.ByDate.Reverse }}
+  {{ $pinned := where $allNotes "Params.pinned" true }}
+  {{ $regular := where $allNotes "Params.pinned" "!=" true }}
+  {{ $paginator := .Paginate $regular }}
 
-        <div class="note-content">
-          <h2 class="note-title">{{ .Title }}</h2>
+  <!-- Pinned Notes -->
+  {{ if gt (len $pinned) 0 }}
 
-          <p class="note-date">
-            {{ .Date.Format "Jan 2, 2006" }}
-          </p>
+    <section class="pinned-notes">
 
-          <div class="note-tags">
-            {{ range .Params.tags }}
-              <span class="note-tag">{{ . }}</span>
-            {{ end }}
-          </div>
+      <h2 class="section-title">📌 Pinned Notes</h2>
 
-          <p class="note-summary">
-            {{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}
-          </p>
-        </div>
+      <div class="notes-grid">
+        {{ range $pinned }}
+          {{ partial "note-card.html" . }}
+        {{ end }}
+      </div>
 
-      </a>
-    {{ end }}
-  </div>
+    </section>
+
+  {{ end }}
+
+  <!-- All Notes -->
+
+  <section class="all-notes">
+
+    <h2 class="section-title">All Notes</h2>
+
+    <div class="notes-grid">
+      {{ range $paginator.Pages }}
+        {{ partial "note-card.html" . }}
+      {{ end }}
+    </div>
+
+  </section>
 
   <!-- Pagination -->
+
   <div class="pagination">
-    {{ if .Paginator.HasPrev }}
-      <a href="{{ .Paginator.Prev.URL }}">← Previous</a>
+
+    {{ if $paginator.HasPrev }}
+      <a href="{{ $paginator.Prev.URL }}">← Previous</a>
     {{ end }}
 
-    {{ if .Paginator.HasNext }}
-      <a href="{{ .Paginator.Next.URL }}">Next →</a>
+    {{ if $paginator.HasNext }}
+      <a href="{{ $paginator.Next.URL }}">Next →</a>
     {{ end }}
+
   </div>
 
 </div>

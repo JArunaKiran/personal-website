@@ -1,0 +1,23 @@
+<a href="{{ .RelPermalink }}" class="note-card">
+
+  <div class="note-content">
+
+    <h2 class="note-title">{{ .Title }}</h2>
+
+    <p class="note-date">
+      {{ .Date.Format "Jan 2, 2006" }}
+    </p>
+
+    <div class="note-tags">
+      {{ range .Params.tags }}
+        <span class="note-tag">{{ . }}</span>
+      {{ end }}
+    </div>
+
+    <p class="note-summary">
+      {{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}
+    </p>
+
+  </div>
+
+</a>

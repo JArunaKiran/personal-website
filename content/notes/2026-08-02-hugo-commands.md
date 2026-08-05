@@ -2,6 +2,7 @@
 date = '2026-08-02T18:20:01+05:30'
 draft = false
 title = 'Hugo Commands'
+tags = ['tech', 'coding']
 +++
 
 I designed my blog using Hugo, and I use Hugo commands frequently to keep it updated. I've compiled a list of the Hugo commands I use most often and published it here in the Notes section for my own reference and record-keeping

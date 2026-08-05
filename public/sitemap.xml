@@ -2,74 +2,80 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:51428/blog/2026-08-02-i-didnt-vibecode-this-travel-journal/</loc>
+    <loc>http://localhost:53701/</loc>
+    <lastmod>2026-08-05T18:04:52+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:53701/notes/2026-08-05-future-blog-posts/</loc>
+    <lastmod>2026-08-05T18:04:52+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:53701/notes/</loc>
+    <lastmod>2026-08-05T18:04:52+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:53701/blog/2026-08-02-i-didnt-vibecode-this-travel-journal/</loc>
     <lastmod>2026-08-02T18:46:55+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:51428/tags/coding/</loc>
+    <loc>http://localhost:53701/tags/coding/</loc>
     <lastmod>2026-08-02T18:46:55+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:51428/</loc>
+    <loc>http://localhost:53701/tags/</loc>
     <lastmod>2026-08-02T18:46:55+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:51428/tags/</loc>
+    <loc>http://localhost:53701/tags/tech/</loc>
     <lastmod>2026-08-02T18:46:55+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:51428/tags/tech/</loc>
-    <lastmod>2026-08-02T18:46:55+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:51428/notes/2026-08-02-hugo-commands/</loc>
+    <loc>http://localhost:53701/notes/2026-08-02-hugo-commands/</loc>
     <lastmod>2026-08-02T18:20:01+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:51428/notes/</loc>
-    <lastmod>2026-08-02T18:20:01+05:30</lastmod>
-  </url><url>
-    <loc>http://localhost:51428/notes/2026-05-31-bookstores-to-vist/</loc>
+    <loc>http://localhost:53701/notes/2026-05-31-bookstores-to-vist/</loc>
     <lastmod>2026-05-31T12:16:24+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:51428/tags/wishlist/</loc>
+    <loc>http://localhost:53701/tags/wishlist/</loc>
     <lastmod>2026-05-31T12:16:24+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:51428/notes/2026-05-09-epictetus-discourses/</loc>
+    <loc>http://localhost:53701/notes/2026-05-09-epictetus-discourses/</loc>
     <lastmod>2026-05-09T11:15:59+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:51428/tags/philosophy/</loc>
+    <loc>http://localhost:53701/tags/philosophy/</loc>
     <lastmod>2026-05-09T11:15:59+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:51428/tags/quotes/</loc>
+    <loc>http://localhost:53701/tags/quotes/</loc>
     <lastmod>2026-05-09T11:15:59+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:51428/tags/note-taking/</loc>
+    <loc>http://localhost:53701/blog/2026-04-23-setting-up-the-blog/</loc>
+    <lastmod>2026-04-23T11:53:39+05:30</lastmod>
+  </url><url>
+    <loc>http://localhost:53701/tags/note-taking/</loc>
     <lastmod>2026-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:51428/notes/2026-04-22-zettlekasten-note-taking-method/</loc>
+    <loc>http://localhost:53701/notes/2026-04-22-zettlekasten-note-taking-method/</loc>
     <lastmod>2026-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:51428/tags/reading-notes/</loc>
+    <loc>http://localhost:53701/tags/reading-notes/</loc>
     <lastmod>2026-04-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:51428/blog/2026-04-19-reading-notes-the-beauty-of-everyday-things/</loc>
+    <loc>http://localhost:53701/blog/2026-04-19-reading-notes-the-beauty-of-everyday-things/</loc>
     <lastmod>2026-04-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:51428/blog/</loc>
+    <loc>http://localhost:53701/blog/</loc>
     <lastmod>2026-04-18T19:00:09+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:51428/tags/mystery/</loc>
+    <loc>http://localhost:53701/tags/mystery/</loc>
     <lastmod>2026-03-30T19:08:02+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:51428/blog/2026-03-30-reading-notes-inspector-imanishi-investigates/</loc>
+    <loc>http://localhost:53701/blog/2026-03-30-reading-notes-inspector-imanishi-investigates/</loc>
     <lastmod>2026-03-30T19:08:02+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:51428/tags/book-review/</loc>
+    <loc>http://localhost:53701/tags/book-review/</loc>
     <lastmod>2025-12-12T19:08:02+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:51428/blog/2025-12-12-book-review-the-samurai/</loc>
+    <loc>http://localhost:53701/blog/2025-12-12-book-review-the-samurai/</loc>
     <lastmod>2025-12-12T19:08:02+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:51428/tags/fiction/</loc>
+    <loc>http://localhost:53701/tags/fiction/</loc>
     <lastmod>2025-12-12T19:08:02+05:30</lastmod>
   </url><url>
-    <loc>http://localhost:51428/about/</loc>
+    <loc>http://localhost:53701/about/</loc>
   </url><url>
-    <loc>http://localhost:51428/values/</loc>
+    <loc>http://localhost:53701/values/</loc>
   </url>
 </urlset>
