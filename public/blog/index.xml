@@ -2,25 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Blog on The Big Banyan Tree</title>
-    <link>http://localhost:53701/blog/</link>
+    <link>http://localhost:1313/blog/</link>
     <description>Recent content in Blog on The Big Banyan Tree</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 02 Aug 2026 18:46:55 +0530</lastBuildDate>
-    <atom:link href="http://localhost:53701/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Aug 2026 12:58:25 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inside the Codebase: Building Travelogue</title>
+      <link>http://localhost:1313/blog/2026-08-07-inside-the-codebase-building-travelogue/</link>
+      <pubDate>Fri, 07 Aug 2026 12:58:25 +0530</pubDate>
+      <guid>http://localhost:1313/blog/2026-08-07-inside-the-codebase-building-travelogue/</guid>
+      <description>&lt;p&gt;In my previous blog, I wrote about why I built &lt;a href=&#34;https://wanderlog-travel-journal.netlify.app/&#34;&gt;Travelogue&lt;/a&gt; and the overall approach I took to build it. In this post, I&amp;rsquo;ll dive deeper into the technical decisions behind the project and share how I used AI as both a sounding board and a collaborator throughout the journey.
+To be clear, I didn&amp;rsquo;t write the code myself. AI generated the code, and my role was to iterate on it until it matched the product I envisioned for my own use.&lt;/p&gt;</description>
+    </item>
     <item>
       <title> I Did Not Vibecode This Travel Journal</title>
-      <link>http://localhost:53701/blog/2026-08-02-i-didnt-vibecode-this-travel-journal/</link>
+      <link>http://localhost:1313/blog/2026-08-02-i-didnt-vibecode-this-travel-journal/</link>
       <pubDate>Sun, 02 Aug 2026 18:46:55 +0530</pubDate>
-      <guid>http://localhost:53701/blog/2026-08-02-i-didnt-vibecode-this-travel-journal/</guid>
+      <guid>http://localhost:1313/blog/2026-08-02-i-didnt-vibecode-this-travel-journal/</guid>
       <description>&lt;p&gt;Over the past one and a half years, my husband and I have taken two international trips, visiting nearly ten cities across different countries. The knowledge I&amp;rsquo;ve gained and the experiences I&amp;rsquo;ve had during these journeys are both vast and deeply personal. They are the kind of memories worth preserving.&lt;/p&gt;
 &lt;p&gt;During our first trip to Germany, I carried a notebook with the intention of jotting down my thoughts and experiences as we explored each city. To my credit, I managed to fill several pages during the first few days. However, writing by hand felt slow and unfamiliar, as I&amp;rsquo;m far more accustomed to typing. By the end of the trip, I had documented only about half the cities we visited, and even those entries felt vague and superficial. I couldn&amp;rsquo;t fully capture the places I had seen, the food I had tasted, or the countless little moments that made the journey memorable.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Setting up my blog</title>
-      <link>http://localhost:53701/blog/2026-04-23-setting-up-the-blog/</link>
+      <link>http://localhost:1313/blog/2026-04-23-setting-up-the-blog/</link>
       <pubDate>Thu, 23 Apr 2026 11:53:39 +0530</pubDate>
-      <guid>http://localhost:53701/blog/2026-04-23-setting-up-the-blog/</guid>
+      <guid>http://localhost:1313/blog/2026-04-23-setting-up-the-blog/</guid>
       <description>&lt;p&gt;Over the past few years, I have repeatedly tried and failed to set up my blog. My motivation to start my personal website stemmed from a perpetual feeling of boredom and a general lack of creativity. Let me give some more background context to this.&lt;/p&gt;
 &lt;h2&gt;2008-2012s&lt;/h2&gt;
 I used to write a lot when I was young. At school, my poems and essays would get published in the school magazine. My short stories were read and appreciated by my English language instructors. I beamed with pride upon their recognition. I used to *create* something back then. My words were my own, an expression of what I genuinely felt and thought. My thoughts were unfiltered and my opinions were strong, undeterred. I never got anyone to seriously review my writing, mostly because I felt scared someone would ask me to change my words which I had carefully and painstakingly selected. 
@@ -29,10 +37,10 @@ I recall using the thesaurus functionality in MS Word. I would look up the synon
     </item>
     <item>
       <title>Reading Notes - The Beauty of Everyday Things by Soetsu Yanagi</title>
-      <link>http://localhost:53701/blog/2026-04-19-reading-notes-the-beauty-of-everyday-things/</link>
+      <link>http://localhost:1313/blog/2026-04-19-reading-notes-the-beauty-of-everyday-things/</link>
       <pubDate>Sun, 19 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53701/blog/2026-04-19-reading-notes-the-beauty-of-everyday-things/</guid>
-      <description>&lt;img src=&#34;http://localhost:53701/images/soetsu-yanagi-beauty.jpg&#34; alt=&#34;Inspector Imanishi Investigates&#34; style=&#34;float:right;width:180px;margin:0 0 1.5rem 2rem;border-radius:0%;&#34; /&gt;
+      <guid>http://localhost:1313/blog/2026-04-19-reading-notes-the-beauty-of-everyday-things/</guid>
+      <description>&lt;img src=&#34;http://localhost:1313/images/soetsu-yanagi-beauty.jpg&#34; alt=&#34;Inspector Imanishi Investigates&#34; style=&#34;float:right;width:180px;margin:0 0 1.5rem 2rem;border-radius:0%;&#34; /&gt;
 &lt;p&gt;Start Date: 17-April-2026&lt;/p&gt;
 &lt;p&gt;End Date:&lt;/p&gt;
 &lt;hr&gt;
@@ -41,19 +49,19 @@ The manager, a kind and elderly gentleman, gave me the book and wished me a happ
     </item>
     <item>
       <title>Reading Notes - Inspector Imanishi Investigates by Seicho Matsumoto</title>
-      <link>http://localhost:53701/blog/2026-03-30-reading-notes-inspector-imanishi-investigates/</link>
+      <link>http://localhost:1313/blog/2026-03-30-reading-notes-inspector-imanishi-investigates/</link>
       <pubDate>Mon, 30 Mar 2026 19:08:02 +0530</pubDate>
-      <guid>http://localhost:53701/blog/2026-03-30-reading-notes-inspector-imanishi-investigates/</guid>
-      <description>&lt;img src=&#34;http://localhost:53701/images/seicho.png&#34; alt=&#34;Inspector Imanishi Investigates&#34; style=&#34;float:right;width:180px;margin:0 0 1.5rem 2rem;border-radius:0%;&#34; /&gt;
+      <guid>http://localhost:1313/blog/2026-03-30-reading-notes-inspector-imanishi-investigates/</guid>
+      <description>&lt;img src=&#34;http://localhost:1313/images/seicho.png&#34; alt=&#34;Inspector Imanishi Investigates&#34; style=&#34;float:right;width:180px;margin:0 0 1.5rem 2rem;border-radius:0%;&#34; /&gt;
 &lt;p&gt;&amp;lsquo;Reading Notes&amp;rsquo; is one of my initiatives to keep a tab of what I read and when I read. These are just my general musing; I am interested in recording my thoughts as I read so that I can look back and reflect on my thought patterns. It will be a raw, unedited version of my thoughts.&lt;/p&gt;
 &lt;p&gt;So here it goes. I am starting with &amp;lsquo;Inspector Imanishi Investigates&amp;rsquo; by Seicho Matsumoto.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Book Review - The Samurai by Shusaku Endo</title>
-      <link>http://localhost:53701/blog/2025-12-12-book-review-the-samurai/</link>
+      <link>http://localhost:1313/blog/2025-12-12-book-review-the-samurai/</link>
       <pubDate>Fri, 12 Dec 2025 19:08:02 +0530</pubDate>
-      <guid>http://localhost:53701/blog/2025-12-12-book-review-the-samurai/</guid>
-      <description>&lt;img src=&#34;http://localhost:53701/images/thesamurai.jpg&#34; alt=&#34;The Samurai&#34; style=&#34;float:right;width:180px;margin:0 0 1.5rem 2rem;border-radius:0%;&#34; /&gt;
+      <guid>http://localhost:1313/blog/2025-12-12-book-review-the-samurai/</guid>
+      <description>&lt;img src=&#34;http://localhost:1313/images/thesamurai.jpg&#34; alt=&#34;The Samurai&#34; style=&#34;float:right;width:180px;margin:0 0 1.5rem 2rem;border-radius:0%;&#34; /&gt;
 &lt;p&gt;I had never previously read anything by Shusaku Endo. All I knew about him was that one of his novels, Silence, had been adapted into an award-winning film directed by Martin Scorsese. I had watched bits and pieces of the movie, and it was compelling enough to spark my curiosity about the events that took place in Japan during the 1500–1600s. Discovering that The Samurai was set in this period, I decided to give the book a try. I went in without expectations and emerged with a new perspective on faith and what it means to us.&lt;/p&gt;</description>
     </item>
   </channel>

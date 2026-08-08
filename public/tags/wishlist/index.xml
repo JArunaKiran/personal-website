@@ -2,17 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Wishlist on The Big Banyan Tree</title>
-    <link>http://localhost:53701/tags/wishlist/</link>
+    <link>http://localhost:1313/tags/wishlist/</link>
     <description>Recent content in Wishlist on The Big Banyan Tree</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 May 2026 12:16:24 +0530</lastBuildDate>
-    <atom:link href="http://localhost:53701/tags/wishlist/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 05 Aug 2026 18:04:52 +0530</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/wishlist/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ideas for Future Blog Posts</title>
+      <link>http://localhost:1313/notes/2026-08-05-future-blog-posts/</link>
+      <pubDate>Wed, 05 Aug 2026 18:04:52 +0530</pubDate>
+      <guid>http://localhost:1313/notes/2026-08-05-future-blog-posts/</guid>
+      <description>&lt;p&gt;I will use this note space to document all the potential topics on which I want to write detailed blog posts.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Tech Design of Travelogue&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Debunking the numbers posted by Indian Matrix on post-2014 infra development in India. &lt;a href=&#34;https://docs.google.com/document/d/1FUdYfBJLJEO1BJrxjUr4ioxM3oE5qAY8ApXzd9bTS7A/edit?tab=t.0&#34;&gt;Indian Matrix numbers&lt;/a&gt; , &lt;a href=&#34;https://x.com/indianmatrix/status/2084637912864268676&#34;&gt;Indian Matrix tweet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Cataloging my visit to Bookstores</title>
-      <link>http://localhost:53701/notes/2026-05-31-bookstores-to-vist/</link>
+      <link>http://localhost:1313/notes/2026-05-31-bookstores-to-vist/</link>
       <pubDate>Sun, 31 May 2026 12:16:24 +0530</pubDate>
-      <guid>http://localhost:53701/notes/2026-05-31-bookstores-to-vist/</guid>
+      <guid>http://localhost:1313/notes/2026-05-31-bookstores-to-vist/</guid>
       <description>&lt;p&gt;&lt;blockquote class=&#34;custom-quote&#34;&gt;
   Independent bookstores are central to a thriving local community and are also one of the last truly democratic institutions that are free for all. 
 &lt;/blockquote&gt;

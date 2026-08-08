@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tech on The Big Banyan Tree</title>
-    <link>http://localhost:53701/tags/tech/</link>
+    <link>http://localhost:1313/tags/tech/</link>
     <description>Recent content in Tech on The Big Banyan Tree</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 02 Aug 2026 18:46:55 +0530</lastBuildDate>
-    <atom:link href="http://localhost:53701/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title> I Did Not Vibecode This Travel Journal</title>
-      <link>http://localhost:53701/blog/2026-08-02-i-didnt-vibecode-this-travel-journal/</link>
+      <link>http://localhost:1313/blog/2026-08-02-i-didnt-vibecode-this-travel-journal/</link>
       <pubDate>Sun, 02 Aug 2026 18:46:55 +0530</pubDate>
-      <guid>http://localhost:53701/blog/2026-08-02-i-didnt-vibecode-this-travel-journal/</guid>
+      <guid>http://localhost:1313/blog/2026-08-02-i-didnt-vibecode-this-travel-journal/</guid>
       <description>&lt;p&gt;Over the past one and a half years, my husband and I have taken two international trips, visiting nearly ten cities across different countries. The knowledge I&amp;rsquo;ve gained and the experiences I&amp;rsquo;ve had during these journeys are both vast and deeply personal. They are the kind of memories worth preserving.&lt;/p&gt;
 &lt;p&gt;During our first trip to Germany, I carried a notebook with the intention of jotting down my thoughts and experiences as we explored each city. To my credit, I managed to fill several pages during the first few days. However, writing by hand felt slow and unfamiliar, as I&amp;rsquo;m far more accustomed to typing. By the end of the trip, I had documented only about half the cities we visited, and even those entries felt vague and superficial. I couldn&amp;rsquo;t fully capture the places I had seen, the food I had tasted, or the countless little moments that made the journey memorable.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hugo Commands</title>
-      <link>http://localhost:53701/notes/2026-08-02-hugo-commands/</link>
+      <link>http://localhost:1313/notes/2026-08-02-hugo-commands/</link>
       <pubDate>Sun, 02 Aug 2026 18:20:01 +0530</pubDate>
-      <guid>http://localhost:53701/notes/2026-08-02-hugo-commands/</guid>
+      <guid>http://localhost:1313/notes/2026-08-02-hugo-commands/</guid>
       <description>&lt;p&gt;I designed my blog using Hugo, and I use Hugo commands frequently to keep it updated. I&amp;rsquo;ve compiled a list of the Hugo commands I use most often and published it here in the Notes section for my own reference and record-keeping&lt;/p&gt;
 &lt;div class=&#34;custom-codeblock&#34;&gt;
   &lt;div class=&#34;code-header&#34;&gt;

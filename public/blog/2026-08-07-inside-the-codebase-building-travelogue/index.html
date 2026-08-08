@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="light">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Inside the Codebase: Building Travelogue | The Big Banyan Tree</title>
+<meta name="keywords" content="">
+<meta name="description" content="In my previous blog, I wrote about why I built Travelogue and the overall approach I took to build it. In this post, I&rsquo;ll dive deeper into the technical decisions behind the project and share how I used AI as both a sounding board and a collaborator throughout the journey.
+To be clear, I didn&rsquo;t write the code myself. AI generated the code, and my role was to iterate on it until it matched the product I envisioned for my own use.">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/blog/2026-08-07-inside-the-codebase-building-travelogue/">
+
+<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.cdnfonts.com/css/departure-mono" rel="stylesheet">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.c1de6670f96779d19dedbc9a6278f43dedcd637bad20d2437f8531e7629192e3.css" integrity="sha256-wd5mcPlnedGd7byaYnj0Pe3NY3utINJDf4Ux52KRkuM=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/blog/2026-08-07-inside-the-codebase-building-travelogue/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    }
+
+</script>
+</head>
+
+<body id="top" class="">
+
+    
+
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="The Big Banyan Tree (Alt + H)">
+                <img src="http://localhost:1313/images/banyantree.png" alt="" aria-label="logo"
+                    height="60">The Big Banyan Tree</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/about/" title="About Me">
+                    <span>About Me</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/values/" title="My Values">
+                    <span>My Values</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/blog/" title="Blog">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/notes/" title="Notes">
+                    <span>Notes</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/" title="Home">
+                    <span>Home</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <nav class="breadcrumbs" role="navigation" aria-label="Breadcrumb">
+    <a href='http://localhost:1313/'>Home</a>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+            <a href="http://localhost:1313/blog/">Blog</a></nav>
+    <h1 class="post-title entry-hint-parent">
+      Inside the Codebase: Building Travelogue
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+    </h1>
+    <div class="post-meta"><span title='2026-08-07 12:58:25 +0530 IST'>August 7, 2026</span>&nbsp;·&nbsp;<span>9 min</span>
+
+</div>
+  </header> 
+  <div class="post-content md-content">
+    <aside class = "marginalia"></aside><p>In my previous blog, I wrote about why I built <a href="https://wanderlog-travel-journal.netlify.app/">Travelogue</a> and the overall approach I took to build it. In this post, I&rsquo;ll dive deeper into the technical decisions behind the project and share how I used AI as both a sounding board and a collaborator throughout the journey.
+To be clear, I didn&rsquo;t write the code myself. AI generated the code, and my role was to iterate on it until it matched the product I envisioned for my own use.</p>
+<p>Travelogue is a web application designed for travelers who want to document their journeys digitally in an organized way. It serves two primary purposes:</p>
+<ol>
+<li>Create trips and plan their itineraries.</li>
+<li>Capture travel experiences alongside those itineraries</li>
+</ol>
+<p>The current version includes the following features:</p>
+<ol>
+<li>Create one or more trips</li>
+<li>Build  an itinerary for each trip</li>
+<li>Write journal entries at both the trip and itinerary levels.</li>
+<li>Upload photos to accompany journal entries</li>
+<li>Track trip expenses (I added this to make the whole travel experience more complete)</li>
+<li>Sign in with Google - no usernames or passwords required.</li>
+</ol>
+<p>Each feature supports the basic CRUD operations. With that overview in place, let&rsquo;s dive into the technical aspects of how the application was built.</p>
+<h2 id="tech-design">Tech Design<a hidden class="anchor" aria-hidden="true" href="#tech-design">#</a></h2>
+<h3 id="tech-stack-used">Tech stack used<a hidden class="anchor" aria-hidden="true" href="#tech-stack-used">#</a></h3>
+<ol>
+<li>Front End - Next.js 16, React 19, Typescript, Tailwind CSS</li>
+<li>Backend - Next.js server actions</li>
+<li>Database - SQLite, Prisma ORM, PostgreSQL</li>
+<li>Authentication - NextAuth, Google OAuth</li>
+<li>Hosting - Netlify</li>
+<li>Image storage - Cloudinary</li>
+<li>Dev environment - VSCode, Git, npm, Prisma Studio</li>
+<li>AI - OpenAI GPT 5.5, Go subscription</li>
+</ol>
+<h3 id="architectural-decisions">Architectural Decisions<a hidden class="anchor" aria-hidden="true" href="#architectural-decisions">#</a></h3>
+<h4 id="1-mobile-first-ui">1. Mobile first UI<a hidden class="anchor" aria-hidden="true" href="#1-mobile-first-ui">#</a></h4>
+<p>This was the first architectural decision I made. I began this project with the aim to use it during travelling. And so, I wanted the app layout to be suited to mobile first and desktop later. This meant that every page on the app was designed assuming:</p>
+<ul>
+<li>phone</li>
+<li>one handed usage</li>
+<li>large buttons</li>
+<li>compact cards</li>
+<li>scrolling ease</li>
+</ul>
+<h4 id="2-mobile-app-vs-web-app">2. Mobile app vs Web App<a hidden class="anchor" aria-hidden="true" href="#2-mobile-app-vs-web-app">#</a></h4>
+<p>Time was not on my side when I decided to build Travelogue - I had only 10 days to go before I left for Vietnam. I knew that developing a native mobile app - given that I own an iPhone - would take too long. Publishing to the App Store wasn&rsquo;t a practical option, and while alternatives such as Xcode sideloading or other distribution methods existed, they involved upfront costs. My goal was simply to build a free, personal tool.</p>
+<p>Since I only needed a simple, lightweight application without deep iOS or Android integrations, a web application was the most practical choice.</p>
+<h4 id="3-data-modeling">3. Data Modeling<a hidden class="anchor" aria-hidden="true" href="#3-data-modeling">#</a></h4>
+<p>Before I asked AI to generate code, I spent considerable time designing the foundation of the application - the data model. Working alongside developers over the past few years has taught me that a well-designed data model is a critical prerequisite for any coding project.</p>
+<p>I shared my PRD with AI and asked it to propose a data model for the application. Its response provided a good starting point, and I iterated on it extensively before arriving at a model that accurately represented how Travelogue would work. The details are explained <a href="#data-modeling">below</a>.</p>
+<h4 id="4-server-actions-over-restapi">4. Server actions over RestAPI<a hidden class="anchor" aria-hidden="true" href="#4-server-actions-over-restapi">#</a></h4>
+<p>Designing the data model gave me a clear picture of what I needed to build. The next step was choosing the right tech stack.</p>
+<p>I asked AI to recommend web development frameworks suitable for my application. Since I had no prior experience building web applications, I wanted a stack that was beginner-friendly, well-documented, and easy to learn.</p>
+<p>Among the options, I chose Next.js. This meant using Server Actions instead of building a REST API. AI explained that an API-first architecture would add unnecessary complexity for an MVP - more code, separate frontend and backend deployments, and additional infrastructure. Since my goal was to build a simple, functional product, Next.js was the more practical choice.</p>
+<h4 id="5-monolith-but-modular">5. Monolith but modular<a hidden class="anchor" aria-hidden="true" href="#5-monolith-but-modular">#</a></h4>
+<p>Choosing Next.js meant building a monolithic codebase, which I initially wasn&rsquo;t comfortable with. I wanted to build proper microservices and API layers, similar to how I had seen software developers structure applications.</p>
+<p>AI helped me understand that a monolith doesn&rsquo;t have to mean an unstructured codebase. Instead, I could keep the application as a single codebase while organizing it into clearly separated modules. For example, tripService.ts handles trip-related business logic, itineraryService.ts handles itinerary management, and actions/trip.ts contains the Server Actions related to trips.</p>
+<p>The result is a modular monolith: one codebase, but with business logic cleanly separated by responsibility. This makes the application easier to understand, maintain, and debug.</p>
+<h4 id="6-orm-over-raw-sql">6. ORM over Raw SQL<a hidden class="anchor" aria-hidden="true" href="#6-orm-over-raw-sql">#</a></h4>
+<p>Another helpful suggestion from AI was to skip raw SQL and use an ORM to interact with the database.
+My data model wasn&rsquo;t particularly simple, and retrieving something like an expense could involve multiple JOIN clauses. An ORM acts as a layer between the application and the database, allowing me to define my data models in Prisma and let it translate my requests into SQL behind the scenes.</p>
+<p>Prisma also provided a GUI that made it easy to inspect my data and verify that my CRUD operations were working correctly. One of its biggest advantages was how easily I could migrate the database whenever I changed the schema.</p>
+<p>For this project, Prisma was a practical choice. Instead of spending time learning SQL and writing additional database code, I could focus more on building the product itself. AI also suggested several other ORMs, but Prisma emerged as the clear winner once I weighed the pros and cons.</p>
+<h4 id="7-sqlite-and-then-postgresql">7. SQLite and then PostgreSQL<a hidden class="anchor" aria-hidden="true" href="#7-sqlite-and-then-postgresql">#</a></h4>
+<p>It quickly became clear that I needed a relational database because my application&rsquo;s core features depended heavily on the relationships between the entities in my data model. I initially chose SQLite because I was developing the application locally. It was lightweight, required no server setup, and allowed me to get started quickly and focus on building the product.</p>
+<p>I planned to host the application on Netlify, a platform I was already familiar with. When I mentioned this to AI, it pointed out that SQLite wasn&rsquo;t suitable for a deployed application because its database is stored as a local file. Each deployment could therefore result in the database being recreated, potentially wiping out my data.</p>
+<p>This made PostgreSQL less of a choice and more of a necessity. Unlike SQLite, PostgreSQL stores data separately from the application, so the data persists independently of application deployments.</p>
+<h4 id="8-cloudinary-for-image-storage">8. Cloudinary for image storage<a hidden class="anchor" aria-hidden="true" href="#8-cloudinary-for-image-storage">#</a></h4>
+<p>Uploading images was a crucial feature for my app, so I had to decide where to store them. I asked AI whether I could store images directly in the database. It said I could, but cautioned that doing so could significantly increase the database size and potentially affect performance.</p>
+<p>AI suggested Cloudinary, a cloud-based media storage service. Instead of storing the actual images in my database, Travelogue would upload them to Cloudinary, which would return an image URL. I could then store that URL in the database while keeping the image itself in Cloudinary.</p>
+<hr>
+<p>If you look at the process as a whole, I used AI as a sounding board at almost every stage. Whenever I had to choose between different technologies, I asked AI why one option might be preferable to another. Its responses, often structured as simple pros-and-cons comparisons, helped me understand the trade-offs before committing to a technical direction.</p>
+<p>I also relied heavily on AI for debugging. Whenever I hit a snag, I would paste the error message into AI and ask it to explain what had gone wrong. Over time, this helped me recognize recurring errors and understand where to look and what to fix when they appeared again.</p>
+<h3 id="data-modeling">Data Modeling<a hidden class="anchor" aria-hidden="true" href="#data-modeling">#</a></h3>
+<blockquote class="custom-quote">
+  The core entity of Travelogue revolves around <b>trip</b> and everything else belongs to a trip. 
+</blockquote>
+<p>Every major feature - planning, journalling, travelers and expenses - is scoped to a specific trip. <br>
+<b>Main Entities</b></p>
+<ul>
+<li>User</li>
+<li>Trip</li>
+<li>ItineraryItem</li>
+<li>JournalEntry</li>
+<li>Traveler</li>
+<li>Expense</li>
+<li>ExpenseParticipant
+<figure>
+    <img loading="lazy" src="/images/ERD%20_%20Travel%20Journal-Page-2.drawio.png"
+         alt="Entity Relationship Diagram - Travelogue"/> <figcaption>
+            <p>Entity Relationship Diagram - Travelogue</p>
+        </figcaption>
+</figure>
+</li>
+</ul>
+<p><b>User &ndash;&gt; Trip (One-to-many)</b><br>
+Initially, the application only supported a single user. As the project evovled, I decided to move this to a multi-user application, so that others could use it as well. After I integrated Google OAuth, I introduced User as another core entity in the data model.
+A user can now create multiple trips, but each trip belongs to exactly one user.</p>
+<p><b>Trip &ndash;&gt; ItineraryItem (One-to-many)</b><br>
+Instead of creating an itinerary as a single block, I chose to break it down into a more granular unit - ItineraryItem. I realised that an itinerary involves several activities such as flights, check-ins, exploration, meals etc. Modeling the itinerary at this level of detail would allow users to document every meaningful part of their journey, rather than just the trip as a whole.</p>
+<p>Now an ItineraryItem stores:</p>
+<ul>
+<li>activityType - an enum {TRAVEL, CHECK_IN, CHECK_OUT, MEAL, EXPLORE}</li>
+<li>place</li>
+<li>Date</li>
+<li>Time</li>
+<li>Notes</li>
+</ul>
+<p><b>Trip &ndash;&gt; JournalEntry and ItineraryItem &ndash;&gt; JournalEntry (One-to-many)</b><br>
+As someone who enjoys documenting trips in detail, I wanted to capture everything, from what I ate and where I ate it to the exhibits I saw in a particular museum. To support this, I designed the journaling component so that entries could be associated either with an entire trip or with an individual ItineraryItem. This gives users the flexibility to record broad reflections as well as the finer details of each experience.</p>
+<p>A JournalEntry can therefore belong either to a Trip or to an ItineraryItem.</p>
+<p><b>Trip &ndash;&gt; Expense (One-to-many)</b><br>
+Adding an expense module was an afterthought. I added it primarily to make the application feel complete, even at an MVP level. I didn&rsquo;t want to rely on a separate app like Splitwise to track trip expenses, so it made sense to build the functionality directly into Travelogue.
+A trip can now have multiple Expense records tied to it. An Expense stores:</p>
+<ul>
+<li>amount</li>
+<li>payer</li>
+<li>category</li>
+</ul>
+<p>However, recording expenses alone wasn&rsquo;t enough - expense settlement naturally followed. At this point, AI suggested introducing another entity - ExpenseParticipant. This simplified settlement calculations by explicitly tracking everyone involved in a particular expense.</p>
+<p>So now, Expense &ndash;&gt; ExpenseParticipant is a One-to-many relationship.</p>
+<p><b>Trip &ndash;&gt; Traveler (One-to-many)</b><br>
+The idea of introducing a Traveler entity came after I designed the expense module. In most cases, an ExpenseParticipant would simply be one of the travelers on the trip. This realization made the concept of a dedicated Traveler entity much more compelling, especially as I started thinking about future features such as trip sharing and collaboration.
+Now the ExpenseParticipant entity derives its information from Traveler.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+<nav class="paginav">
+  <a class="next" href="http://localhost:1313/blog/2026-08-02-i-didnt-vibecode-this-travel-journal/">
+    <span class="title">Next »</span>
+    <span> I Did Not Vibecode This Travel Journal</span>
+  </a>
+</nav>
+
+  </footer>
+ 
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">The Big Banyan Tree</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+<script src="/js/marginalia.js" defer></script>
+</body>
+
+</html>
